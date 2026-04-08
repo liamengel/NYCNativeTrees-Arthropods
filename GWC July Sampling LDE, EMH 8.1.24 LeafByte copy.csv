@@ -1,0 +1,821 @@
+﻿Accession_No,Mapping_Order,Full_name,Genus,Species,Origin,Leaf_no,Latitude,Longitude,Height_ft,Sun_Exposure_percent,Distance_from_Road_ft,Leaf_Accessibility,Gall_Presence,Leaf_Herbivory
+W08-102,1,Quercus alba,Quercus,alba,Native,1,40.654666,-73.996547,29,75,0,high,N,14
+W08-102,1,Quercus alba,Quercus,alba,Native,2,40.654666,-73.996547,29,75,0,high,N,11
+W08-102,1,Quercus alba,Quercus,alba,Native,3,40.654666,-73.996547,29,75,0,high,N,13
+W08-102,1,Quercus alba,Quercus,alba,Native,4,40.654666,-73.996547,29,75,0,high,N,5
+W08-102,1,Quercus alba,Quercus,alba,Native,5,40.654666,-73.996547,29,75,0,high,N,8
+W08-102,1,Quercus alba,Quercus,alba,Native,6,40.654666,-73.996547,29,75,0,high,N,3
+W08-102,1,Quercus alba,Quercus,alba,Native,7,40.654666,-73.996547,29,75,0,high,N,2
+W08-102,1,Quercus alba,Quercus,alba,Native,8,40.654666,-73.996547,29,75,0,high,N,4
+W08-102,1,Quercus alba,Quercus,alba,Native,9,40.654666,-73.996547,29,75,0,high,N,2
+W08-102,1,Quercus alba,Quercus,alba,Native,10,40.654666,-73.996547,29,75,0,high,N,7
+W34-140,2,Quercus robur,Quercus,robur,Non-native,1,40.649972,-73.997473,37,100,50,medium,N,7
+W34-140,2,Quercus robur,Quercus,robur,Non-native,2,40.649972,-73.997473,37,100,50,medium,N,6
+W34-140,2,Quercus robur,Quercus,robur,Non-native,3,40.649972,-73.997473,37,100,50,medium,N,9
+W34-140,2,Quercus robur,Quercus,robur,Non-native,4,40.649972,-73.997473,37,100,50,medium,N,10
+W34-140,2,Quercus robur,Quercus,robur,Non-native,5,40.649972,-73.997473,37,100,50,medium,N,6
+W34-140,2,Quercus robur,Quercus,robur,Non-native,6,40.649972,-73.997473,37,100,50,medium,N,1
+W34-140,2,Quercus robur,Quercus,robur,Non-native,7,40.649972,-73.997473,37,100,50,medium,N,1
+W34-140,2,Quercus robur,Quercus,robur,Non-native,8,40.649972,-73.997473,37,100,50,medium,N,2
+W34-140,2,Quercus robur,Quercus,robur,Non-native,9,40.649972,-73.997473,37,100,50,medium,N,3
+W34-140,2,Quercus robur,Quercus,robur,Non-native,10,40.649972,-73.997473,37,100,50,medium,N,3
+W15-84,3,Quercus robur,Quercus,robur,Non-native,1,40.65161,-73.9923,30,100,0,medium,N,6
+W15-84,3,Quercus robur,Quercus,robur,Non-native,2,40.65161,-73.9923,30,100,0,medium,N,1
+W15-84,3,Quercus robur,Quercus,robur,Non-native,3,40.65161,-73.9923,30,100,0,medium,N,2
+W15-84,3,Quercus robur,Quercus,robur,Non-native,4,40.65161,-73.9923,30,100,0,medium,N,3
+W15-84,3,Quercus robur,Quercus,robur,Non-native,5,40.65161,-73.9923,30,100,0,medium,N,3
+W15-84,3,Quercus robur,Quercus,robur,Non-native,6,40.65161,-73.9923,30,100,0,medium,N,5
+W15-84,3,Quercus robur,Quercus,robur,Non-native,7,40.65161,-73.9923,30,100,0,medium,N,4
+W15-84,3,Quercus robur,Quercus,robur,Non-native,8,40.65161,-73.9923,30,100,0,medium,N,7
+W15-84,3,Quercus robur,Quercus,robur,Non-native,9,40.65161,-73.9923,30,100,0,medium,N,5
+W15-84,3,Quercus robur,Quercus,robur,Non-native,10,40.65161,-73.9923,30,100,0,medium,N,1
+W27-138,4,Quercus robur,Quercus,robur,Non-native,1,40.651733,-73.990995,26,100,50,high,N,1
+W27-138,4,Quercus robur,Quercus,robur,Non-native,2,40.651733,-73.990995,26,100,50,high,N,1
+W27-138,4,Quercus robur,Quercus,robur,Non-native,3,40.651733,-73.990995,26,100,50,high,N,2
+W27-138,4,Quercus robur,Quercus,robur,Non-native,4,40.651733,-73.990995,26,100,50,high,N,1
+W27-138,4,Quercus robur,Quercus,robur,Non-native,5,40.651733,-73.990995,26,100,50,high,N,3
+W27-138,4,Quercus robur,Quercus,robur,Non-native,6,40.651733,-73.990995,26,100,50,high,N,8
+W27-138,4,Quercus robur,Quercus,robur,Non-native,7,40.651733,-73.990995,26,100,50,high,N,1
+W27-138,4,Quercus robur,Quercus,robur,Non-native,8,40.651733,-73.990995,26,100,50,high,N,0
+W27-138,4,Quercus robur,Quercus,robur,Non-native,9,40.651733,-73.990995,26,100,50,high,N,1
+W27-138,4,Quercus robur,Quercus,robur,Non-native,10,40.651733,-73.990995,26,100,50,high,N,1
+W27-67,5,Quercus alba,Quercus,alba,Native,1,40.65197,-73.99061,63,100,0,medium,Y,7
+W27-67,5,Quercus alba,Quercus,alba,Native,2,40.65197,-73.99061,63,100,0,medium,Y,5
+W27-67,5,Quercus alba,Quercus,alba,Native,3,40.65197,-73.99061,63,100,0,medium,Y,4
+W27-67,5,Quercus alba,Quercus,alba,Native,4,40.65197,-73.99061,63,100,0,medium,Y,12
+W27-67,5,Quercus alba,Quercus,alba,Native,5,40.65197,-73.99061,63,100,0,medium,Y,4
+W27-67,5,Quercus alba,Quercus,alba,Native,6,40.65197,-73.99061,63,100,0,medium,Y,1
+W27-67,5,Quercus alba,Quercus,alba,Native,7,40.65197,-73.99061,63,100,0,medium,Y,4
+W27-67,5,Quercus alba,Quercus,alba,Native,8,40.65197,-73.99061,63,100,0,medium,Y,7
+W27-67,5,Quercus alba,Quercus,alba,Native,9,40.65197,-73.99061,63,100,0,medium,Y,0
+W27-67,5,Quercus alba,Quercus,alba,Native,10,40.65197,-73.99061,63,100,0,medium,Y,0
+W18-78,6,Quercus alba,Quercus,alba,Native,1,40.653388,-73.990816,18,75,0,high,Y,1
+W18-78,6,Quercus alba,Quercus,alba,Native,2,40.653388,-73.990816,18,75,0,high,Y,5
+W18-78,6,Quercus alba,Quercus,alba,Native,3,40.653388,-73.990816,18,75,0,high,Y,3
+W18-78,6,Quercus alba,Quercus,alba,Native,4,40.653388,-73.990816,18,75,0,high,Y,4
+W18-78,6,Quercus alba,Quercus,alba,Native,5,40.653388,-73.990816,18,75,0,high,Y,2
+W18-78,6,Quercus alba,Quercus,alba,Native,6,40.653388,-73.990816,18,75,0,high,Y,1
+W18-78,6,Quercus alba,Quercus,alba,Native,7,40.653388,-73.990816,18,75,0,high,Y,1
+W18-78,6,Quercus alba,Quercus,alba,Native,8,40.653388,-73.990816,18,75,0,high,Y,0
+W18-78,6,Quercus alba,Quercus,alba,Native,9,40.653388,-73.990816,18,75,0,high,Y,2
+W18-78,6,Quercus alba,Quercus,alba,Native,10,40.653388,-73.990816,18,75,0,high,Y,0
+W18-31,7,Quercus alba,Quercus,alba,Native,1,40.653718,-73.990695,57,50,50,medium,Y,2
+W18-31,7,Quercus alba,Quercus,alba,Native,2,40.653718,-73.990695,57,50,50,medium,Y,3
+W18-31,7,Quercus alba,Quercus,alba,Native,3,40.653718,-73.990695,57,50,50,medium,Y,4
+W18-31,7,Quercus alba,Quercus,alba,Native,4,40.653718,-73.990695,57,50,50,medium,Y,3
+W18-31,7,Quercus alba,Quercus,alba,Native,5,40.653718,-73.990695,57,50,50,medium,Y,2
+W18-31,7,Quercus alba,Quercus,alba,Native,6,40.653718,-73.990695,57,50,50,medium,Y,7
+W18-31,7,Quercus alba,Quercus,alba,Native,7,40.653718,-73.990695,57,50,50,medium,Y,5
+W18-31,7,Quercus alba,Quercus,alba,Native,8,40.653718,-73.990695,57,50,50,medium,Y,5
+W18-31,7,Quercus alba,Quercus,alba,Native,9,40.653718,-73.990695,57,50,50,medium,Y,4
+W18-31,7,Quercus alba,Quercus,alba,Native,10,40.653718,-73.990695,57,50,50,medium,Y,14
+S04-10,8,Quercus alba,Quercus,alba,Native,1,40.649857,-73.991537,67,75,25,low,N,3
+S04-10,8,Quercus alba,Quercus,alba,Native,2,40.649857,-73.991537,67,75,25,low,N,2
+S04-10,8,Quercus alba,Quercus,alba,Native,3,40.649857,-73.991537,67,75,25,low,N,1
+S04-10,8,Quercus alba,Quercus,alba,Native,4,40.649857,-73.991537,67,75,25,low,N,0
+S04-10,8,Quercus alba,Quercus,alba,Native,5,40.649857,-73.991537,67,75,25,low,N,0
+S04-10,8,Quercus alba,Quercus,alba,Native,6,40.649857,-73.991537,67,75,25,low,N,0
+S04-10,8,Quercus alba,Quercus,alba,Native,7,40.649857,-73.991537,67,75,25,low,N,8
+S04-10,8,Quercus alba,Quercus,alba,Native,8,40.649857,-73.991537,67,75,25,low,N,0
+S04-10,8,Quercus alba,Quercus,alba,Native,9,40.649857,-73.991537,67,75,25,low,N,0
+S04-10,8,Quercus alba,Quercus,alba,Native,10,40.649857,-73.991537,67,75,25,low,N,1
+S03-32,9,Quercus alba,Quercus,alba,Native,1,40.648113,-73.992812,58,75,25,low,Y,1
+S03-32,9,Quercus alba,Quercus,alba,Native,2,40.648113,-73.992812,58,75,25,low,Y,2
+S03-32,9,Quercus alba,Quercus,alba,Native,3,40.648113,-73.992812,58,75,25,low,Y,1
+S03-32,9,Quercus alba,Quercus,alba,Native,4,40.648113,-73.992812,58,75,25,low,Y,1
+S03-32,9,Quercus alba,Quercus,alba,Native,5,40.648113,-73.992812,58,75,25,low,Y,1
+S03-32,9,Quercus alba,Quercus,alba,Native,6,40.648113,-73.992812,58,75,25,low,Y,13
+S03-32,9,Quercus alba,Quercus,alba,Native,7,40.648113,-73.992812,58,75,25,low,Y,8
+S03-32,9,Quercus alba,Quercus,alba,Native,8,40.648113,-73.992812,58,75,25,low,Y,11
+S03-32,9,Quercus alba,Quercus,alba,Native,9,40.648113,-73.992812,58,75,25,low,Y,6
+S03-32,9,Quercus alba,Quercus,alba,Native,10,40.648113,-73.992812,58,75,25,low,Y,8
+S02-7,10,Quercus alba,Quercus,alba,Native,1,40.647707,-73.992305,33,100,0,high,Y,1
+S02-7,10,Quercus alba,Quercus,alba,Native,2,40.647707,-73.992305,33,100,0,high,Y,1
+S02-7,10,Quercus alba,Quercus,alba,Native,3,40.647707,-73.992305,33,100,0,high,Y,0
+S02-7,10,Quercus alba,Quercus,alba,Native,4,40.647707,-73.992305,33,100,0,high,Y,0
+S02-7,10,Quercus alba,Quercus,alba,Native,5,40.647707,-73.992305,33,100,0,high,Y,1
+S02-7,10,Quercus alba,Quercus,alba,Native,6,40.647707,-73.992305,33,100,0,high,Y,15
+S02-7,10,Quercus alba,Quercus,alba,Native,7,40.647707,-73.992305,33,100,0,high,Y,3
+S02-7,10,Quercus alba,Quercus,alba,Native,8,40.647707,-73.992305,33,100,0,high,Y,8
+S02-7,10,Quercus alba,Quercus,alba,Native,9,40.647707,-73.992305,33,100,0,high,Y,9
+S02-7,10,Quercus alba,Quercus,alba,Native,10,40.647707,-73.992305,33,100,0,high,Y,6
+S15-209,11,Quercus robur,Quercus,robur,Non-native,1,40.646507,-73.986165,32,100,50,high,N,2
+S15-209,11,Quercus robur,Quercus,robur,Non-native,2,40.646507,-73.986165,32,100,50,high,N,1
+S15-209,11,Quercus robur,Quercus,robur,Non-native,3,40.646507,-73.986165,32,100,50,high,N,1
+S15-209,11,Quercus robur,Quercus,robur,Non-native,4,40.646507,-73.986165,32,100,50,high,N,3
+S15-209,11,Quercus robur,Quercus,robur,Non-native,5,40.646507,-73.986165,32,100,50,high,N,0
+S15-209,11,Quercus robur,Quercus,robur,Non-native,6,40.646507,-73.986165,32,100,50,high,N,0
+S15-209,11,Quercus robur,Quercus,robur,Non-native,7,40.646507,-73.986165,32,100,50,high,N,7
+S15-209,11,Quercus robur,Quercus,robur,Non-native,8,40.646507,-73.986165,32,100,50,high,N,3
+S15-209,11,Quercus robur,Quercus,robur,Non-native,9,40.646507,-73.986165,32,100,50,high,N,1
+S15-209,11,Quercus robur,Quercus,robur,Non-native,10,40.646507,-73.986165,32,100,50,high,N,1
+S08-139,12,Quercus alba,Quercus,alba,Native,1,40.650366,-73.984114,15,100,50,high,Y,3
+S08-139,12,Quercus alba,Quercus,alba,Native,2,40.650366,-73.984114,15,100,50,high,Y,4
+S08-139,12,Quercus alba,Quercus,alba,Native,3,40.650366,-73.984114,15,100,50,high,Y,3
+S08-139,12,Quercus alba,Quercus,alba,Native,4,40.650366,-73.984114,15,100,50,high,Y,3
+S08-139,12,Quercus alba,Quercus,alba,Native,5,40.650366,-73.984114,15,100,50,high,Y,5
+S08-139,12,Quercus alba,Quercus,alba,Native,6,40.650366,-73.984114,15,100,50,high,Y,0
+S08-139,12,Quercus alba,Quercus,alba,Native,7,40.650366,-73.984114,15,100,50,high,Y,4
+S08-139,12,Quercus alba,Quercus,alba,Native,8,40.650366,-73.984114,15,100,50,high,Y,0
+S08-139,12,Quercus alba,Quercus,alba,Native,9,40.650366,-73.984114,15,100,50,high,Y,1
+S08-139,12,Quercus alba,Quercus,alba,Native,10,40.650366,-73.984114,15,100,50,high,Y,4
+S08-159,13,Quercus alba,Quercus,alba,Native,1,40.65039,-73.985293,19,100,50,high,Y,0
+S08-159,13,Quercus alba,Quercus,alba,Native,2,40.65039,-73.985293,19,100,50,high,Y,6
+S08-159,13,Quercus alba,Quercus,alba,Native,3,40.65039,-73.985293,19,100,50,high,Y,1
+S08-159,13,Quercus alba,Quercus,alba,Native,4,40.65039,-73.985293,19,100,50,high,Y,4
+S08-159,13,Quercus alba,Quercus,alba,Native,5,40.65039,-73.985293,19,100,50,high,Y,0
+S08-159,13,Quercus alba,Quercus,alba,Native,6,40.65039,-73.985293,19,100,50,high,Y,12
+S08-159,13,Quercus alba,Quercus,alba,Native,7,40.65039,-73.985293,19,100,50,high,Y,28
+S08-159,13,Quercus alba,Quercus,alba,Native,8,40.65039,-73.985293,19,100,50,high,Y,15
+S08-159,13,Quercus alba,Quercus,alba,Native,9,40.65039,-73.985293,19,100,50,high,Y,13
+S08-159,13,Quercus alba,Quercus,alba,Native,10,40.65039,-73.985293,19,100,50,high,Y,14
+E26-227,14,Quercus alba,Quercus,alba,Native,1,40.651292,-73.986582,19,100,0,high,Y,11
+E26-227,14,Quercus alba,Quercus,alba,Native,2,40.651292,-73.986582,19,100,0,high,Y,13
+E26-227,14,Quercus alba,Quercus,alba,Native,3,40.651292,-73.986582,19,100,0,high,Y,7
+E26-227,14,Quercus alba,Quercus,alba,Native,4,40.651292,-73.986582,19,100,0,high,Y,0
+E26-227,14,Quercus alba,Quercus,alba,Native,5,40.651292,-73.986582,19,100,0,high,Y,6
+E26-227,14,Quercus alba,Quercus,alba,Native,6,40.651292,-73.986582,19,100,0,high,Y,17
+E26-227,14,Quercus alba,Quercus,alba,Native,7,40.651292,-73.986582,19,100,0,high,Y,13
+E26-227,14,Quercus alba,Quercus,alba,Native,8,40.651292,-73.986582,19,100,0,high,Y,16
+E26-227,14,Quercus alba,Quercus,alba,Native,9,40.651292,-73.986582,19,100,0,high,Y,5
+E26-227,14,Quercus alba,Quercus,alba,Native,10,40.651292,-73.986582,19,100,0,high,Y,20
+S10-144,15,Quercus robur,Quercus,robur,Non-native,1,40.651589,-73.981692,25,75,25,medium,N,0
+S10-144,15,Quercus robur,Quercus,robur,Non-native,2,40.651589,-73.981692,25,75,25,medium,N,1
+S10-144,15,Quercus robur,Quercus,robur,Non-native,3,40.651589,-73.981692,25,75,25,medium,N,3
+S10-144,15,Quercus robur,Quercus,robur,Non-native,4,40.651589,-73.981692,25,75,25,medium,N,1
+S10-144,15,Quercus robur,Quercus,robur,Non-native,5,40.651589,-73.981692,25,75,25,medium,N,1
+S10-144,15,Quercus robur,Quercus,robur,Non-native,6,40.651589,-73.981692,25,75,25,medium,N,3
+S10-144,15,Quercus robur,Quercus,robur,Non-native,7,40.651589,-73.981692,25,75,25,medium,N,0
+S10-144,15,Quercus robur,Quercus,robur,Non-native,8,40.651589,-73.981692,25,75,25,medium,N,0
+S10-144,15,Quercus robur,Quercus,robur,Non-native,9,40.651589,-73.981692,25,75,25,medium,N,0
+S10-144,15,Quercus robur,Quercus,robur,Non-native,10,40.651589,-73.981692,25,75,25,medium,N,1
+E22-182,16,Quercus robur,Quercus,robur,Non-native,1,40.656315,-73.985671,37,100,50,high,N,2
+E22-182,16,Quercus robur,Quercus,robur,Non-native,2,40.656315,-73.985671,37,100,50,high,N,0
+E22-182,16,Quercus robur,Quercus,robur,Non-native,3,40.656315,-73.985671,37,100,50,high,N,3
+E22-182,16,Quercus robur,Quercus,robur,Non-native,4,40.656315,-73.985671,37,100,50,high,N,1
+E22-182,16,Quercus robur,Quercus,robur,Non-native,5,40.656315,-73.985671,37,100,50,high,N,0
+E22-182,16,Quercus robur,Quercus,robur,Non-native,6,40.656315,-73.985671,37,100,50,high,N,1
+E22-182,16,Quercus robur,Quercus,robur,Non-native,7,40.656315,-73.985671,37,100,50,high,N,1
+E22-182,16,Quercus robur,Quercus,robur,Non-native,8,40.656315,-73.985671,37,100,50,high,N,0
+E22-182,16,Quercus robur,Quercus,robur,Non-native,9,40.656315,-73.985671,37,100,50,high,N,1
+E22-182,16,Quercus robur,Quercus,robur,Non-native,10,40.656315,-73.985671,37,100,50,high,N,1
+E20-90,17,Quercus robur,Quercus,robur,Non-native,1,40.656909,-73.987337,38,100,25,high,N,0
+E20-90,17,Quercus robur,Quercus,robur,Non-native,2,40.656909,-73.987337,38,100,25,high,N,1
+E20-90,17,Quercus robur,Quercus,robur,Non-native,3,40.656909,-73.987337,38,100,25,high,N,0
+E20-90,17,Quercus robur,Quercus,robur,Non-native,4,40.656909,-73.987337,38,100,25,high,N,1
+E20-90,17,Quercus robur,Quercus,robur,Non-native,5,40.656909,-73.987337,38,100,25,high,N,0
+E20-90,17,Quercus robur,Quercus,robur,Non-native,6,40.656909,-73.987337,38,100,25,high,N,11
+E20-90,17,Quercus robur,Quercus,robur,Non-native,7,40.656909,-73.987337,38,100,25,high,N,4
+E20-90,17,Quercus robur,Quercus,robur,Non-native,8,40.656909,-73.987337,38,100,25,high,N,16
+E20-90,17,Quercus robur,Quercus,robur,Non-native,9,40.656909,-73.987337,38,100,25,high,N,3
+E20-90,17,Quercus robur,Quercus,robur,Non-native,10,40.656909,-73.987337,38,100,25,high,N,2
+E19-172,18,Quercus robur,Quercus,robur,Non-native,1,40.657718,-73.987109,27,100,50,medium,N,3
+E19-172,18,Quercus robur,Quercus,robur,Non-native,2,40.657718,-73.987109,27,100,50,medium,N,1
+E19-172,18,Quercus robur,Quercus,robur,Non-native,3,40.657718,-73.987109,27,100,50,medium,N,2
+E19-172,18,Quercus robur,Quercus,robur,Non-native,4,40.657718,-73.987109,27,100,50,medium,N,5
+E19-172,18,Quercus robur,Quercus,robur,Non-native,5,40.657718,-73.987109,27,100,50,medium,N,0
+E19-172,18,Quercus robur,Quercus,robur,Non-native,6,40.657718,-73.987109,27,100,50,medium,N,1
+E19-172,18,Quercus robur,Quercus,robur,Non-native,7,40.657718,-73.987109,27,100,50,medium,N,3
+E19-172,18,Quercus robur,Quercus,robur,Non-native,8,40.657718,-73.987109,27,100,50,medium,N,4
+E19-172,18,Quercus robur,Quercus,robur,Non-native,9,40.657718,-73.987109,27,100,50,medium,N,10
+E19-172,18,Quercus robur,Quercus,robur,Non-native,10,40.657718,-73.987109,27,100,50,medium,N,2
+E19-171,19,Quercus robur,Quercus,robur,Non-native,1,40.657428,-73.987351,33,100,50,medium,N,2
+E19-171,19,Quercus robur,Quercus,robur,Non-native,2,40.657428,-73.987351,33,100,50,medium,N,6
+E19-171,19,Quercus robur,Quercus,robur,Non-native,3,40.657428,-73.987351,33,100,50,medium,N,2
+E19-171,19,Quercus robur,Quercus,robur,Non-native,4,40.657428,-73.987351,33,100,50,medium,N,2
+E19-171,19,Quercus robur,Quercus,robur,Non-native,5,40.657428,-73.987351,33,100,50,medium,N,4
+E19-171,19,Quercus robur,Quercus,robur,Non-native,6,40.657428,-73.987351,33,100,50,medium,N,2
+E19-171,19,Quercus robur,Quercus,robur,Non-native,7,40.657428,-73.987351,33,100,50,medium,N,0
+E19-171,19,Quercus robur,Quercus,robur,Non-native,8,40.657428,-73.987351,33,100,50,medium,N,1
+E19-171,19,Quercus robur,Quercus,robur,Non-native,9,40.657428,-73.987351,33,100,50,medium,N,1
+E19-171,19,Quercus robur,Quercus,robur,Non-native,10,40.657428,-73.987351,33,100,50,medium,N,0
+E19-162,20,Quercus robur,Quercus,robur,Non-native,1,40.657336,-73.987996,35,100,25,high,N,1
+E19-162,20,Quercus robur,Quercus,robur,Non-native,2,40.657336,-73.987996,35,100,25,high,N,6
+E19-162,20,Quercus robur,Quercus,robur,Non-native,3,40.657336,-73.987996,35,100,25,high,N,0
+E19-162,20,Quercus robur,Quercus,robur,Non-native,4,40.657336,-73.987996,35,100,25,high,N,0
+E19-162,20,Quercus robur,Quercus,robur,Non-native,5,40.657336,-73.987996,35,100,25,high,N,3
+E19-162,20,Quercus robur,Quercus,robur,Non-native,6,40.657336,-73.987996,35,100,25,high,N,8
+E19-162,20,Quercus robur,Quercus,robur,Non-native,7,40.657336,-73.987996,35,100,25,high,N,2
+E19-162,20,Quercus robur,Quercus,robur,Non-native,8,40.657336,-73.987996,35,100,25,high,N,1
+E19-162,20,Quercus robur,Quercus,robur,Non-native,9,40.657336,-73.987996,35,100,25,high,N,1
+E19-162,20,Quercus robur,Quercus,robur,Non-native,10,40.657336,-73.987996,35,100,25,high,N,7
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,1,40.655054,-73.994827,66,50,0,low,N,16.66666667
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,2,40.655054,-73.994827,66,50,0,low,N,10
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,3,40.655054,-73.994827,66,50,0,low,N,3
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,4,40.655054,-73.994827,66,50,0,low,N,2
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,5,40.655054,-73.994827,66,50,0,low,N,2
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,6,40.655054,-73.994827,66,50,0,low,N,6
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,7,40.655054,-73.994827,66,50,0,low,N,26
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,8,40.655054,-73.994827,66,50,0,low,N,13
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,9,40.655054,-73.994827,66,50,0,low,N,40
+E41-35,1,Tilia cordata,Tilia,cordata,Non-native,10,40.655054,-73.994827,66,50,0,low,N,48
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,1,40.654529,-73.993625,71,50,0,low,N,0
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,2,40.654529,-73.993625,71,50,0,low,N,1
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,3,40.654529,-73.993625,71,50,0,low,N,0
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,4,40.654529,-73.993625,71,50,0,low,N,0
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,5,40.654529,-73.993625,71,50,0,low,N,0
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,6,40.654529,-73.993625,71,50,0,low,N,0
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,7,40.654529,-73.993625,71,50,0,low,N,3
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,8,40.654529,-73.993625,71,50,0,low,N,1
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,9,40.654529,-73.993625,71,50,0,low,N,0
+E41-6,2,Tilia cordata,Tilia,cordata,Non-native,10,40.654529,-73.993625,71,50,0,low,N,2
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,1,40.654152,-73.990009,73,50,0,medium,Y,0
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,2,40.654152,-73.990009,73,50,0,medium,Y,1
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,3,40.654152,-73.990009,73,50,0,medium,Y,3
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,4,40.654152,-73.990009,73,50,0,medium,Y,0
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,5,40.654152,-73.990009,73,50,0,medium,Y,0
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,6,40.654152,-73.990009,73,50,0,medium,Y,0
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,7,40.654152,-73.990009,73,50,0,medium,Y,4
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,8,40.654152,-73.990009,73,50,0,medium,Y,1
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,9,40.654152,-73.990009,73,50,0,medium,Y,2
+E33-92,3,Tilia cordata,Tilia,cordata,Non-native,10,40.654152,-73.990009,73,50,0,medium,Y,2
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,1,40.653917,-73.989674,64,50,0,low,N,0
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,2,40.653917,-73.989674,64,50,0,low,N,1
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,3,40.653917,-73.989674,64,50,0,low,N,1
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,4,40.653917,-73.989674,64,50,0,low,N,0
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,5,40.653917,-73.989674,64,50,0,low,N,2
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,6,40.653917,-73.989674,64,50,0,low,N,4
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,7,40.653917,-73.989674,64,50,0,low,N,48
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,8,40.653917,-73.989674,64,50,0,low,N,2
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,9,40.653917,-73.989674,64,50,0,low,N,3
+W18-76,4,Tilia cordata,Tilia,cordata,Non-native,10,40.653917,-73.989674,64,50,0,low,N,6
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,1,40.653435,-73.988771,77,25,0,high,N,0
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,2,40.653435,-73.988771,77,25,0,high,N,0
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,3,40.653435,-73.988771,77,25,0,high,N,0
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,4,40.653435,-73.988771,77,25,0,high,N,1
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,5,40.653435,-73.988771,77,25,0,high,N,0
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,6,40.653435,-73.988771,77,25,0,high,N,1
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,7,40.653435,-73.988771,77,25,0,high,N,1
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,8,40.653435,-73.988771,77,25,0,high,N,1
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,9,40.653435,-73.988771,77,25,0,high,N,9
+W20-12,5,Tilia cordata,Tilia,cordata,Non-native,10,40.653435,-73.988771,77,25,0,high,N,0
+E22-135,6,Tilia americana,Tilia,americana,Native,1,40.654388,-73.985213,36,100,25,high,Y,1
+E22-135,6,Tilia americana,Tilia,americana,Native,2,40.654388,-73.985213,36,100,25,high,Y,1
+E22-135,6,Tilia americana,Tilia,americana,Native,3,40.654388,-73.985213,36,100,25,high,Y,1
+E22-135,6,Tilia americana,Tilia,americana,Native,4,40.654388,-73.985213,36,100,25,high,Y,5
+E22-135,6,Tilia americana,Tilia,americana,Native,5,40.654388,-73.985213,36,100,25,high,Y,2
+E22-135,6,Tilia americana,Tilia,americana,Native,6,40.654388,-73.985213,36,100,25,high,Y,2
+E22-135,6,Tilia americana,Tilia,americana,Native,7,40.654388,-73.985213,36,100,25,high,Y,1
+E22-135,6,Tilia americana,Tilia,americana,Native,8,40.654388,-73.985213,36,100,25,high,Y,1
+E22-135,6,Tilia americana,Tilia,americana,Native,9,40.654388,-73.985213,36,100,25,high,Y,7
+E22-135,6,Tilia americana,Tilia,americana,Native,10,40.654388,-73.985213,36,100,25,high,Y,1
+E30-16,7,Tilia americana,Tilia,americana,Native,1,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,2,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,3,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,4,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,5,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,6,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,7,40.653349,-73.98732,67,75,25,high,N,51
+E30-16,7,Tilia americana,Tilia,americana,Native,8,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,9,40.653349,-73.98732,67,75,25,high,N,0
+E30-16,7,Tilia americana,Tilia,americana,Native,10,40.653349,-73.98732,67,75,25,high,N,0
+W23-3,8,Tilia americana,Tilia,americana,Native,1,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,2,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,3,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,4,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,5,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,6,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,7,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,8,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,9,40.652802,-73.987754,72,50,0,low,Y,0
+W23-3,8,Tilia americana,Tilia,americana,Native,10,40.652802,-73.987754,72,50,0,low,Y,0
+E27-19,9,Tilia americana,Tilia,americana,Native,1,40.652384,-73.987542,56,100,0,medium,Y,3
+E27-19,9,Tilia americana,Tilia,americana,Native,2,40.652384,-73.987542,56,100,0,medium,Y,30
+E27-19,9,Tilia americana,Tilia,americana,Native,3,40.652384,-73.987542,56,100,0,medium,Y,9
+E27-19,9,Tilia americana,Tilia,americana,Native,4,40.652384,-73.987542,56,100,0,medium,Y,4
+E27-19,9,Tilia americana,Tilia,americana,Native,5,40.652384,-73.987542,56,100,0,medium,Y,1
+E27-19,9,Tilia americana,Tilia,americana,Native,6,40.652384,-73.987542,56,100,0,medium,Y,2
+E27-19,9,Tilia americana,Tilia,americana,Native,7,40.652384,-73.987542,56,100,0,medium,Y,1
+E27-19,9,Tilia americana,Tilia,americana,Native,8,40.652384,-73.987542,56,100,0,medium,Y,1
+E27-19,9,Tilia americana,Tilia,americana,Native,9,40.652384,-73.987542,56,100,0,medium,Y,4
+E27-19,9,Tilia americana,Tilia,americana,Native,10,40.652384,-73.987542,56,100,0,medium,Y,7
+W24-30,10,Tilia americana,Tilia,americana,Native,1,40.651109,-73.988606,65,75,0,medium,Y,2
+W24-30,10,Tilia americana,Tilia,americana,Native,2,40.651109,-73.988606,65,75,0,medium,Y,0
+W24-30,10,Tilia americana,Tilia,americana,Native,3,40.651109,-73.988606,65,75,0,medium,Y,1
+W24-30,10,Tilia americana,Tilia,americana,Native,4,40.651109,-73.988606,65,75,0,medium,Y,1
+W24-30,10,Tilia americana,Tilia,americana,Native,5,40.651109,-73.988606,65,75,0,medium,Y,0
+W24-30,10,Tilia americana,Tilia,americana,Native,6,40.651109,-73.988606,65,75,0,medium,Y,36
+W24-30,10,Tilia americana,Tilia,americana,Native,7,40.651109,-73.988606,65,75,0,medium,Y,2
+W24-30,10,Tilia americana,Tilia,americana,Native,8,40.651109,-73.988606,65,75,0,medium,Y,0
+W24-30,10,Tilia americana,Tilia,americana,Native,9,40.651109,-73.988606,65,75,0,medium,Y,23
+W24-30,10,Tilia americana,Tilia,americana,Native,10,40.651109,-73.988606,65,75,0,medium,Y,32
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,1,40.649183,-73.987279,42,100,0,high,Y,1
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,2,40.649183,-73.987279,42,100,0,high,Y,0
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,3,40.649183,-73.987279,42,100,0,high,Y,0
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,4,40.649183,-73.987279,42,100,0,high,Y,0
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,5,40.649183,-73.987279,42,100,0,high,Y,10
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,6,40.649183,-73.987279,42,100,0,high,Y,3
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,7,40.649183,-73.987279,42,100,0,high,Y,0
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,8,40.649183,-73.987279,42,100,0,high,Y,0
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,9,40.649183,-73.987279,42,100,0,high,Y,3
+S07-74,11,Tilia cordata,Tilia,cordata,Non-native,10,40.649183,-73.987279,42,100,0,high,Y,0
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,1,40.649387,-73.983211,57,75,50,medium,Y,1
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,2,40.649387,-73.983211,57,75,50,medium,Y,1
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,3,40.649387,-73.983211,57,75,50,medium,Y,3
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,4,40.649387,-73.983211,57,75,50,medium,Y,0
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,5,40.649387,-73.983211,57,75,50,medium,Y,1
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,6,40.649387,-73.983211,57,75,50,medium,Y,0
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,7,40.649387,-73.983211,57,75,50,medium,Y,0
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,8,40.649387,-73.983211,57,75,50,medium,Y,0
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,9,40.649387,-73.983211,57,75,50,medium,Y,2
+S13-32,12,Tilia cordata,Tilia,cordata,Non-native,10,40.649387,-73.983211,57,75,50,medium,Y,2
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,1,40.649935,-73.980958,32,100,25,high,Y,2
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,2,40.649935,-73.980958,32,100,25,high,Y,0
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,3,40.649935,-73.980958,32,100,25,high,Y,0
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,4,40.649935,-73.980958,32,100,25,high,Y,1
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,5,40.649935,-73.980958,32,100,25,high,Y,9
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,6,40.649935,-73.980958,32,100,25,high,Y,2
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,7,40.649935,-73.980958,32,100,25,high,Y,3
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,8,40.649935,-73.980958,32,100,25,high,Y,0
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,9,40.649935,-73.980958,32,100,25,high,Y,7
+S11-172,13,Tilia cordata,Tilia,cordata,Non-native,10,40.649935,-73.980958,32,100,25,high,Y,0
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,1,40.648134,-73.98283,27,100,25,high,Y,0
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,2,40.648134,-73.98283,27,100,25,high,Y,3
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,3,40.648134,-73.98283,27,100,25,high,Y,8
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,4,40.648134,-73.98283,27,100,25,high,Y,2
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,5,40.648134,-73.98283,27,100,25,high,Y,0
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,6,40.648134,-73.98283,27,100,25,high,Y,6
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,7,40.648134,-73.98283,27,100,25,high,Y,1
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,8,40.648134,-73.98283,27,100,25,high,Y,1
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,9,40.648134,-73.98283,27,100,25,high,Y,2
+S12-113,14,Tilia cordata,Tilia,cordata,Non-native,10,40.648134,-73.98283,27,100,25,high,Y,1
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,1,40.647624,-73.986894,69,100,50,high,Y,4
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,2,40.647624,-73.986894,69,100,50,high,Y,1
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,3,40.647624,-73.986894,69,100,50,high,Y,1
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,4,40.647624,-73.986894,69,100,50,high,Y,2
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,5,40.647624,-73.986894,69,100,50,high,Y,6
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,6,40.647624,-73.986894,69,100,50,high,Y,2
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,7,40.647624,-73.986894,69,100,50,high,Y,15
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,8,40.647624,-73.986894,69,100,50,high,Y,1
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,9,40.647624,-73.986894,69,100,50,high,Y,1
+S14-85,15,Tilia cordata,Tilia,cordata,Non-native,10,40.647624,-73.986894,69,100,50,high,Y,1
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,1,40.645981,-73.990585,68,75,50,high,N,0
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,2,40.645981,-73.990585,68,75,50,high,N,0
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,3,40.645981,-73.990585,68,75,50,high,N,5
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,4,40.645981,-73.990585,68,75,50,high,N,0
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,5,40.645981,-73.990585,68,75,50,high,N,0
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,6,40.645981,-73.990585,68,75,50,high,N,1
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,7,40.645981,-73.990585,68,75,50,high,N,8
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,8,40.645981,-73.990585,68,75,50,high,N,0
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,9,40.645981,-73.990585,68,75,50,high,N,4
+S19-17,16,Tilia cordata,Tilia,cordata,Non-native,10,40.645981,-73.990585,68,75,50,high,N,24
+S03-22,17,Tilia americana,Tilia,americana,Native,1,40.648696,-73.992541,93,50,50,low,Y,1
+S03-22,17,Tilia americana,Tilia,americana,Native,2,40.648696,-73.992541,93,50,50,low,Y,2
+S03-22,17,Tilia americana,Tilia,americana,Native,3,40.648696,-73.992541,93,50,50,low,Y,0
+S03-22,17,Tilia americana,Tilia,americana,Native,4,40.648696,-73.992541,93,50,50,low,Y,1
+S03-22,17,Tilia americana,Tilia,americana,Native,5,40.648696,-73.992541,93,50,50,low,Y,0
+S03-22,17,Tilia americana,Tilia,americana,Native,6,40.648696,-73.992541,93,50,50,low,Y,1
+S03-22,17,Tilia americana,Tilia,americana,Native,7,40.648696,-73.992541,93,50,50,low,Y,0
+S03-22,17,Tilia americana,Tilia,americana,Native,8,40.648696,-73.992541,93,50,50,low,Y,0
+S03-22,17,Tilia americana,Tilia,americana,Native,9,40.648696,-73.992541,93,50,50,low,Y,2
+S03-22,17,Tilia americana,Tilia,americana,Native,10,40.648696,-73.992541,93,50,50,low,Y,0
+S02-36,18,Tilia americana,Tilia,americana,Native,1,40.648803,-73.992405,94,50,50,low,Y,45
+S02-36,18,Tilia americana,Tilia,americana,Native,2,40.648803,-73.992405,94,50,50,low,Y,5
+S02-36,18,Tilia americana,Tilia,americana,Native,3,40.648803,-73.992405,94,50,50,low,Y,6
+S02-36,18,Tilia americana,Tilia,americana,Native,4,40.648803,-73.992405,94,50,50,low,Y,6
+S02-36,18,Tilia americana,Tilia,americana,Native,5,40.648803,-73.992405,94,50,50,low,Y,13
+S02-36,18,Tilia americana,Tilia,americana,Native,6,40.648803,-73.992405,94,50,50,low,Y,2
+S02-36,18,Tilia americana,Tilia,americana,Native,7,40.648803,-73.992405,94,50,50,low,Y,0
+S02-36,18,Tilia americana,Tilia,americana,Native,8,40.648803,-73.992405,94,50,50,low,Y,0
+S02-36,18,Tilia americana,Tilia,americana,Native,9,40.648803,-73.992405,94,50,50,low,Y,0
+S02-36,18,Tilia americana,Tilia,americana,Native,10,40.648803,-73.992405,94,50,50,low,Y,0
+S03-56,19,Tilia americana,Tilia,americana,Native,1,40.6495,-73.992846,83,50,0,low,Y,1
+S03-56,19,Tilia americana,Tilia,americana,Native,2,40.6495,-73.992846,83,50,0,low,Y,3
+S03-56,19,Tilia americana,Tilia,americana,Native,3,40.6495,-73.992846,83,50,0,low,Y,1
+S03-56,19,Tilia americana,Tilia,americana,Native,4,40.6495,-73.992846,83,50,0,low,Y,0
+S03-56,19,Tilia americana,Tilia,americana,Native,5,40.6495,-73.992846,83,50,0,low,Y,2
+S03-56,19,Tilia americana,Tilia,americana,Native,6,40.6495,-73.992846,83,50,0,low,Y,0
+S03-56,19,Tilia americana,Tilia,americana,Native,7,40.6495,-73.992846,83,50,0,low,Y,0
+S03-56,19,Tilia americana,Tilia,americana,Native,8,40.6495,-73.992846,83,50,0,low,Y,0
+S03-56,19,Tilia americana,Tilia,americana,Native,9,40.6495,-73.992846,83,50,0,low,Y,0
+S03-56,19,Tilia americana,Tilia,americana,Native,10,40.6495,-73.992846,83,50,0,low,Y,0
+W30-1,20,Tilia americana,Tilia,americana,Native,1,40.649872,-73.99291,67,100,0,medium,Y,0
+W30-1,20,Tilia americana,Tilia,americana,Native,2,40.649872,-73.99291,67,100,0,medium,Y,0
+W30-1,20,Tilia americana,Tilia,americana,Native,3,40.649872,-73.99291,67,100,0,medium,Y,1
+W30-1,20,Tilia americana,Tilia,americana,Native,4,40.649872,-73.99291,67,100,0,medium,Y,9
+W30-1,20,Tilia americana,Tilia,americana,Native,5,40.649872,-73.99291,67,100,0,medium,Y,20
+W30-1,20,Tilia americana,Tilia,americana,Native,6,40.649872,-73.99291,67,100,0,medium,Y,0
+W30-1,20,Tilia americana,Tilia,americana,Native,7,40.649872,-73.99291,67,100,0,medium,Y,0
+W30-1,20,Tilia americana,Tilia,americana,Native,8,40.649872,-73.99291,67,100,0,medium,Y,1
+W30-1,20,Tilia americana,Tilia,americana,Native,9,40.649872,-73.99291,67,100,0,medium,Y,0
+W30-1,20,Tilia americana,Tilia,americana,Native,10,40.649872,-73.99291,67,100,0,medium,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,1,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,2,40.652414,-74.001078,34,100,50,high,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,3,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,4,40.652414,-74.001078,34,100,50,high,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,5,40.652414,-74.001078,34,100,50,high,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,6,40.652414,-74.001078,34,100,50,high,Y,2
+W42-125,21,Tilia americana,Tilia,americana,Native,7,40.652414,-74.001078,34,100,50,high,Y,5
+W42-125,21,Tilia americana,Tilia,americana,Native,8,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,9,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,10,40.652414,-74.001078,34,100,50,high,Y,2
+W42-125,21,Tilia americana,Tilia,americana,Native,1,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,2,40.652414,-74.001078,34,100,50,high,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,3,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,4,40.652414,-74.001078,34,100,50,high,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,5,40.652414,-74.001078,34,100,50,high,Y,0
+W42-125,21,Tilia americana,Tilia,americana,Native,6,40.652414,-74.001078,34,100,50,high,Y,2
+W42-125,21,Tilia americana,Tilia,americana,Native,7,40.652414,-74.001078,34,100,50,high,Y,5
+W42-125,21,Tilia americana,Tilia,americana,Native,8,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,9,40.652414,-74.001078,34,100,50,high,Y,1
+W42-125,21,Tilia americana,Tilia,americana,Native,10,40.652414,-74.001078,34,100,50,high,Y,2
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,1,40.65368,-73.987327,59,50,0,low,N,1
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,2,40.65368,-73.987327,59,50,0,low,N,0
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,3,40.65368,-73.987327,59,50,0,low,N,0
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,4,40.65368,-73.987327,59,50,0,low,N,1
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,5,40.65368,-73.987327,59,50,0,low,N,0
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,6,40.65368,-73.987327,59,50,0,low,N,1
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,7,40.65368,-73.987327,59,50,0,low,N,46
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,8,40.65368,-73.987327,59,50,0,low,N,1
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,9,40.65368,-73.987327,59,50,0,low,N,0
+E31-36,1,Acer platanoides,Acer,platanoides,Non-native,10,40.65368,-73.987327,59,50,0,low,N,0
+E27-15,2,Acer rubrum,Acer,rubrum,Native,1,40.652729,-73.987282,66,25,0,low,Y,0
+E27-15,2,Acer rubrum,Acer,rubrum,Native,2,40.652729,-73.987282,66,25,0,low,Y,5
+E27-15,2,Acer rubrum,Acer,rubrum,Native,3,40.652729,-73.987282,66,25,0,low,Y,9
+E27-15,2,Acer rubrum,Acer,rubrum,Native,4,40.652729,-73.987282,66,25,0,low,Y,1
+E27-15,2,Acer rubrum,Acer,rubrum,Native,5,40.652729,-73.987282,66,25,0,low,Y,2
+E27-15,2,Acer rubrum,Acer,rubrum,Native,6,40.652729,-73.987282,66,25,0,low,Y,0
+E27-15,2,Acer rubrum,Acer,rubrum,Native,7,40.652729,-73.987282,66,25,0,low,Y,2
+E27-15,2,Acer rubrum,Acer,rubrum,Native,8,40.652729,-73.987282,66,25,0,low,Y,1
+E27-15,2,Acer rubrum,Acer,rubrum,Native,9,40.652729,-73.987282,66,25,0,low,Y,0
+E27-15,2,Acer rubrum,Acer,rubrum,Native,10,40.652729,-73.987282,66,25,0,low,Y,0
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,1,40.652126,-73.986804,64,50,25,low,N,0
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,2,40.652126,-73.986804,64,50,25,low,N,1
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,3,40.652126,-73.986804,64,50,25,low,N,0
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,4,40.652126,-73.986804,64,50,25,low,N,0
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,5,40.652126,-73.986804,64,50,25,low,N,1
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,6,40.652126,-73.986804,64,50,25,low,N,3
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,7,40.652126,-73.986804,64,50,25,low,N,1
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,8,40.652126,-73.986804,64,50,25,low,N,0
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,9,40.652126,-73.986804,64,50,25,low,N,0
+E27-124,3,Acer platanoides,Acer,platanoides,Non-native,10,40.652126,-73.986804,64,50,25,low,N,0
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,1,40.652859,-73.985709,40,100,0,low,N,3
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,2,40.652859,-73.985709,40,100,0,low,N,2
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,3,40.652859,-73.985709,40,100,0,low,N,2
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,4,40.652859,-73.985709,40,100,0,low,N,51
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,5,40.652859,-73.985709,40,100,0,low,N,1
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,6,40.652859,-73.985709,40,100,0,low,N,0
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,7,40.652859,-73.985709,40,100,0,low,N,4
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,8,40.652859,-73.985709,40,100,0,low,N,1
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,9,40.652859,-73.985709,40,100,0,low,N,0
+E27-72,4,Acer platanoides,Acer,platanoides,Non-native,10,40.652859,-73.985709,40,100,0,low,N,0
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,1,40.652721,-73.985058,58,100,0,low,N,0
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,2,40.652721,-73.985058,58,100,0,low,N,0
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,3,40.652721,-73.985058,58,100,0,low,N,1
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,4,40.652721,-73.985058,58,100,0,low,N,0
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,5,40.652721,-73.985058,58,100,0,low,N,3
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,6,40.652721,-73.985058,58,100,0,low,N,2
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,7,40.652721,-73.985058,58,100,0,low,N,0
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,8,40.652721,-73.985058,58,100,0,low,N,2
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,9,40.652721,-73.985058,58,100,0,low,N,0
+E26-27,5,Acer platanoides,Acer,platanoides,Non-native,10,40.652721,-73.985058,58,100,0,low,N,1
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,1,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,2,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,3,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,4,40.652043,-73.985912,63,50,25,low,N,1
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,5,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,6,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,7,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,8,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,9,40.652043,-73.985912,63,50,25,low,N,0
+E26-185,6,Acer platanoides,Acer,platanoides,Non-native,10,40.652043,-73.985912,63,50,25,low,N,1
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,1,40.651818,-73.986391,71,50,25,low,N,1
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,2,40.651818,-73.986391,71,50,25,low,N,1
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,3,40.651818,-73.986391,71,50,25,low,N,1
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,4,40.651818,-73.986391,71,50,25,low,N,0
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,5,40.651818,-73.986391,71,50,25,low,N,0
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,6,40.651818,-73.986391,71,50,25,low,N,1
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,7,40.651818,-73.986391,71,50,25,low,N,7
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,8,40.651818,-73.986391,71,50,25,low,N,0
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,9,40.651818,-73.986391,71,50,25,low,N,1
+E26-217,7,Acer platanoides,Acer,platanoides,Non-native,10,40.651818,-73.986391,71,50,25,low,N,0
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,1,40.651792,-73.986368,52,25,50,low,N,1
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,2,40.651792,-73.986368,52,25,50,low,N,0
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,3,40.651792,-73.986368,52,25,50,low,N,1
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,4,40.651792,-73.986368,52,25,50,low,N,5
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,5,40.651792,-73.986368,52,25,50,low,N,14
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,6,40.651792,-73.986368,52,25,50,low,N,0
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,7,40.651792,-73.986368,52,25,50,low,N,0
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,8,40.651792,-73.986368,52,25,50,low,N,11
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,9,40.651792,-73.986368,52,25,50,low,N,1
+E26-219,8,Acer platanoides,Acer,platanoides,Non-native,10,40.651792,-73.986368,52,25,50,low,N,2
+E25-26,9,Acer rubrum,Acer,rubrum,Native,1,40.652966,-73.98346,57,100,50,high,N,6
+E25-26,9,Acer rubrum,Acer,rubrum,Native,2,40.652966,-73.98346,57,100,50,high,N,22
+E25-26,9,Acer rubrum,Acer,rubrum,Native,3,40.652966,-73.98346,57,100,50,high,N,5
+E25-26,9,Acer rubrum,Acer,rubrum,Native,4,40.652966,-73.98346,57,100,50,high,N,0
+E25-26,9,Acer rubrum,Acer,rubrum,Native,5,40.652966,-73.98346,57,100,50,high,N,9
+E25-26,9,Acer rubrum,Acer,rubrum,Native,6,40.652966,-73.98346,57,100,50,high,N,1
+E25-26,9,Acer rubrum,Acer,rubrum,Native,7,40.652966,-73.98346,57,100,50,high,N,0
+E25-26,9,Acer rubrum,Acer,rubrum,Native,8,40.652966,-73.98346,57,100,50,high,N,2
+E25-26,9,Acer rubrum,Acer,rubrum,Native,9,40.652966,-73.98346,57,100,50,high,N,3
+E25-26,9,Acer rubrum,Acer,rubrum,Native,10,40.652966,-73.98346,57,100,50,high,N,0
+S15-1,10,Acer rubrum,Acer,rubrum,Native,1,40.648522,-73.983548,45,100,0,low,N,0
+S15-1,10,Acer rubrum,Acer,rubrum,Native,2,40.648522,-73.983548,45,100,0,low,N,1
+S15-1,10,Acer rubrum,Acer,rubrum,Native,3,40.648522,-73.983548,45,100,0,low,N,1
+S15-1,10,Acer rubrum,Acer,rubrum,Native,4,40.648522,-73.983548,45,100,0,low,N,0
+S15-1,10,Acer rubrum,Acer,rubrum,Native,5,40.648522,-73.983548,45,100,0,low,N,2
+S15-1,10,Acer rubrum,Acer,rubrum,Native,6,40.648522,-73.983548,45,100,0,low,N,11
+S15-1,10,Acer rubrum,Acer,rubrum,Native,7,40.648522,-73.983548,45,100,0,low,N,6
+S15-1,10,Acer rubrum,Acer,rubrum,Native,8,40.648522,-73.983548,45,100,0,low,N,2
+S15-1,10,Acer rubrum,Acer,rubrum,Native,9,40.648522,-73.983548,45,100,0,low,N,1
+S15-1,10,Acer rubrum,Acer,rubrum,Native,10,40.648522,-73.983548,45,100,0,low,N,1
+S12-43,11,Acer rubrum,Acer,rubrum,Native,1,40.648423,-73.983317,39,75,0,medium,N,1
+S12-43,11,Acer rubrum,Acer,rubrum,Native,2,40.648423,-73.983317,39,75,0,medium,N,0
+S12-43,11,Acer rubrum,Acer,rubrum,Native,3,40.648423,-73.983317,39,75,0,medium,N,2
+S12-43,11,Acer rubrum,Acer,rubrum,Native,4,40.648423,-73.983317,39,75,0,medium,N,0
+S12-43,11,Acer rubrum,Acer,rubrum,Native,5,40.648423,-73.983317,39,75,0,medium,N,4
+S12-43,11,Acer rubrum,Acer,rubrum,Native,6,40.648423,-73.983317,39,75,0,medium,N,1
+S12-43,11,Acer rubrum,Acer,rubrum,Native,7,40.648423,-73.983317,39,75,0,medium,N,0
+S12-43,11,Acer rubrum,Acer,rubrum,Native,8,40.648423,-73.983317,39,75,0,medium,N,0
+S12-43,11,Acer rubrum,Acer,rubrum,Native,9,40.648423,-73.983317,39,75,0,medium,N,0
+S12-43,11,Acer rubrum,Acer,rubrum,Native,10,40.648423,-73.983317,39,75,0,medium,N,0
+S12-42,12,Acer rubrum,Acer,rubrum,Native,1,40.648349,-73.983256,32,75,0,medium,N,11
+S12-42,12,Acer rubrum,Acer,rubrum,Native,2,40.648349,-73.983256,32,75,0,medium,N,2
+S12-42,12,Acer rubrum,Acer,rubrum,Native,3,40.648349,-73.983256,32,75,0,medium,N,1
+S12-42,12,Acer rubrum,Acer,rubrum,Native,4,40.648349,-73.983256,32,75,0,medium,N,3
+S12-42,12,Acer rubrum,Acer,rubrum,Native,5,40.648349,-73.983256,32,75,0,medium,N,0
+S12-42,12,Acer rubrum,Acer,rubrum,Native,6,40.648349,-73.983256,32,75,0,medium,N,6
+S12-42,12,Acer rubrum,Acer,rubrum,Native,7,40.648349,-73.983256,32,75,0,medium,N,1
+S12-42,12,Acer rubrum,Acer,rubrum,Native,8,40.648349,-73.983256,32,75,0,medium,N,1
+S12-42,12,Acer rubrum,Acer,rubrum,Native,9,40.648349,-73.983256,32,75,0,medium,N,3
+S12-42,12,Acer rubrum,Acer,rubrum,Native,10,40.648349,-73.983256,32,75,0,medium,N,2
+S15-12,13,Acer rubrum,Acer,rubrum,Native,1,40.64825,-73.983308,37,75,0,high,N,1
+S15-12,13,Acer rubrum,Acer,rubrum,Native,2,40.64825,-73.983308,37,75,0,high,N,2
+S15-12,13,Acer rubrum,Acer,rubrum,Native,3,40.64825,-73.983308,37,75,0,high,N,0
+S15-12,13,Acer rubrum,Acer,rubrum,Native,4,40.64825,-73.983308,37,75,0,high,N,0
+S15-12,13,Acer rubrum,Acer,rubrum,Native,5,40.64825,-73.983308,37,75,0,high,N,0
+S15-12,13,Acer rubrum,Acer,rubrum,Native,6,40.64825,-73.983308,37,75,0,high,N,6
+S15-12,13,Acer rubrum,Acer,rubrum,Native,7,40.64825,-73.983308,37,75,0,high,N,26
+S15-12,13,Acer rubrum,Acer,rubrum,Native,8,40.64825,-73.983308,37,75,0,high,N,7
+S15-12,13,Acer rubrum,Acer,rubrum,Native,9,40.64825,-73.983308,37,75,0,high,N,5
+S15-12,13,Acer rubrum,Acer,rubrum,Native,10,40.64825,-73.983308,37,75,0,high,N,1
+S12-24,14,Acer rubrum,Acer,rubrum,Native,1,40.648012,-73.98297,37,75,0,low,N,1
+S12-24,14,Acer rubrum,Acer,rubrum,Native,2,40.648012,-73.98297,37,75,0,low,N,2
+S12-24,14,Acer rubrum,Acer,rubrum,Native,3,40.648012,-73.98297,37,75,0,low,N,5
+S12-24,14,Acer rubrum,Acer,rubrum,Native,4,40.648012,-73.98297,37,75,0,low,N,4
+S12-24,14,Acer rubrum,Acer,rubrum,Native,5,40.648012,-73.98297,37,75,0,low,N,1
+S12-24,14,Acer rubrum,Acer,rubrum,Native,6,40.648012,-73.98297,37,75,0,low,N,1
+S12-24,14,Acer rubrum,Acer,rubrum,Native,7,40.648012,-73.98297,37,75,0,low,N,1
+S12-24,14,Acer rubrum,Acer,rubrum,Native,8,40.648012,-73.98297,37,75,0,low,N,1
+S12-24,14,Acer rubrum,Acer,rubrum,Native,9,40.648012,-73.98297,37,75,0,low,N,0
+S12-24,14,Acer rubrum,Acer,rubrum,Native,10,40.648012,-73.98297,37,75,0,low,N,0
+S15-21,15,Acer rubrum,Acer,rubrum,Native,1,40.647713,-73.982846,35,75,0,medium,N,0
+S15-21,15,Acer rubrum,Acer,rubrum,Native,2,40.647713,-73.982846,35,75,0,medium,N,0
+S15-21,15,Acer rubrum,Acer,rubrum,Native,3,40.647713,-73.982846,35,75,0,medium,N,0
+S15-21,15,Acer rubrum,Acer,rubrum,Native,4,40.647713,-73.982846,35,75,0,medium,N,0
+S15-21,15,Acer rubrum,Acer,rubrum,Native,5,40.647713,-73.982846,35,75,0,medium,N,1
+S15-21,15,Acer rubrum,Acer,rubrum,Native,6,40.647713,-73.982846,35,75,0,medium,N,4
+S15-21,15,Acer rubrum,Acer,rubrum,Native,7,40.647713,-73.982846,35,75,0,medium,N,2
+S15-21,15,Acer rubrum,Acer,rubrum,Native,8,40.647713,-73.982846,35,75,0,medium,N,1
+S15-21,15,Acer rubrum,Acer,rubrum,Native,9,40.647713,-73.982846,35,75,0,medium,N,0
+S15-21,15,Acer rubrum,Acer,rubrum,Native,10,40.647713,-73.982846,35,75,0,medium,N,3
+S15-22,16,Acer rubrum,Acer,rubrum,Native,1,40.647638,-73.982798,47,75,0,high,N,0
+S15-22,16,Acer rubrum,Acer,rubrum,Native,2,40.647638,-73.982798,47,75,0,high,N,1
+S15-22,16,Acer rubrum,Acer,rubrum,Native,3,40.647638,-73.982798,47,75,0,high,N,0
+S15-22,16,Acer rubrum,Acer,rubrum,Native,4,40.647638,-73.982798,47,75,0,high,N,1
+S15-22,16,Acer rubrum,Acer,rubrum,Native,5,40.647638,-73.982798,47,75,0,high,N,1
+S15-22,16,Acer rubrum,Acer,rubrum,Native,6,40.647638,-73.982798,47,75,0,high,N,14
+S15-22,16,Acer rubrum,Acer,rubrum,Native,7,40.647638,-73.982798,47,75,0,high,N,2
+S15-22,16,Acer rubrum,Acer,rubrum,Native,8,40.647638,-73.982798,47,75,0,high,N,1
+S15-22,16,Acer rubrum,Acer,rubrum,Native,9,40.647638,-73.982798,47,75,0,high,N,1
+S15-22,16,Acer rubrum,Acer,rubrum,Native,10,40.647638,-73.982798,47,75,0,high,N,1
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,1,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,2,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,3,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,4,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,5,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,6,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,7,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,8,40.644755,-73.989915,43,100,50,medium,N,0
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,9,40.644755,-73.989915,43,100,50,medium,N,2
+S16-96,17,Acer platanoides,Acer,platanoides,Non-native,10,40.644755,-73.989915,43,100,50,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,1,40.648676,-73.995802,67,50,0,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,2,40.648676,-73.995802,67,50,0,medium,N,1
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,3,40.648676,-73.995802,67,50,0,medium,N,1
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,4,40.648676,-73.995802,67,50,0,medium,N,1
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,5,40.648676,-73.995802,67,50,0,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,6,40.648676,-73.995802,67,50,0,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,7,40.648676,-73.995802,67,50,0,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,8,40.648676,-73.995802,67,50,0,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,9,40.648676,-73.995802,67,50,0,medium,N,0
+W35-320,18,Acer platanoides,Acer,platanoides,Non-native,10,40.648676,-73.995802,67,50,0,medium,N,1
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,1,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,2,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,3,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,4,40.652073,-73.995881,61,25,50,low,N,5
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,5,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,6,40.652073,-73.995881,61,25,50,low,N,2
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,7,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,8,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,9,40.652073,-73.995881,61,25,50,low,N,0
+W40-116,19,Acer platanoides,Acer,platanoides,Non-native,10,40.652073,-73.995881,61,25,50,low,N,1
+E03-39,20,Acer rubrum,Acer,rubrum,Native,1,40.657184,-73.996288,39,75,50,low,N,1
+E03-39,20,Acer rubrum,Acer,rubrum,Native,2,40.657184,-73.996288,39,75,50,low,N,2
+E03-39,20,Acer rubrum,Acer,rubrum,Native,3,40.657184,-73.996288,39,75,50,low,N,2
+E03-39,20,Acer rubrum,Acer,rubrum,Native,4,40.657184,-73.996288,39,75,50,low,N,1
+E03-39,20,Acer rubrum,Acer,rubrum,Native,5,40.657184,-73.996288,39,75,50,low,N,5
+E03-39,20,Acer rubrum,Acer,rubrum,Native,6,40.657184,-73.996288,39,75,50,low,N,0
+E03-39,20,Acer rubrum,Acer,rubrum,Native,7,40.657184,-73.996288,39,75,50,low,N,1
+E03-39,20,Acer rubrum,Acer,rubrum,Native,8,40.657184,-73.996288,39,75,50,low,N,0
+E03-39,20,Acer rubrum,Acer,rubrum,Native,9,40.657184,-73.996288,39,75,50,low,N,2
+E03-39,20,Acer rubrum,Acer,rubrum,Native,10,40.657184,-73.996288,39,75,50,low,N,2
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.657379,-73.991772,18,100,0,high,N,2
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.657379,-73.991772,18,100,0,high,N,0
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.657379,-73.991772,18,100,0,high,N,1
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.657379,-73.991772,18,100,0,high,N,5
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.657379,-73.991772,18,100,0,high,N,1
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.657379,-73.991772,18,100,0,high,N,1
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.657379,-73.991772,18,100,0,high,N,4
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.657379,-73.991772,18,100,0,high,N,0
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.657379,-73.991772,18,100,0,high,N,2
+E12-43,8,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.657379,-73.991772,18,100,0,high,N,1
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.655307,-73.996142,22,50,0,high,N,8
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.655307,-73.996142,22,50,0,high,N,4
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.655307,-73.996142,22,50,0,high,N,4
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.655307,-73.996142,22,50,0,high,N,4
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.655307,-73.996142,22,50,0,high,N,7
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.655307,-73.996142,22,50,0,high,N,5
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.655307,-73.996142,22,50,0,high,N,3
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.655307,-73.996142,22,50,0,high,N,3
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.655307,-73.996142,22,50,0,high,N,10
+W08-23,10,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.655307,-73.996142,22,50,0,high,N,16
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.652406,-73.988703,36,50,50,high,N,9
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.652406,-73.988703,36,50,50,high,N,4
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.652406,-73.988703,36,50,50,high,N,3
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.652406,-73.988703,36,50,50,high,N,4
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.652406,-73.988703,36,50,50,high,N,4
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.652406,-73.988703,36,50,50,high,N,2
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.652406,-73.988703,36,50,50,high,N,1
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.652406,-73.988703,36,50,50,high,N,1
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.652406,-73.988703,36,50,50,high,N,5
+W22-11,4,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.652406,-73.988703,36,50,50,high,N,8
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.652766,-73.991095,21,50,50,high,N,68
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.652766,-73.991095,21,50,50,high,N,21
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.652766,-73.991095,21,50,50,high,N,7
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.652766,-73.991095,21,50,50,high,N,13
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.652766,-73.991095,21,50,50,high,N,8
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.652766,-73.991095,21,50,50,high,N,4
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.652766,-73.991095,21,50,50,high,N,6
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.652766,-73.991095,21,50,50,high,N,3
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.652766,-73.991095,21,50,50,high,N,2
+W16-77,5,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.652766,-73.991095,21,50,50,high,N,16
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.656539,-73.991764,26,50,0,high,N,3
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.656539,-73.991764,26,50,0,high,N,2
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.656539,-73.991764,26,50,0,high,N,7
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.656539,-73.991764,26,50,0,high,N,8
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.656539,-73.991764,26,50,0,high,N,4
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.656539,-73.991764,26,50,0,high,N,2
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.656539,-73.991764,26,50,0,high,N,2
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.656539,-73.991764,26,50,0,high,N,1
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.656539,-73.991764,26,50,0,high,N,0
+E13-24,6,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.656539,-73.991764,26,50,0,high,N,3
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.649421,-73.982656,34,100,50,high,N,3
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.649421,-73.982656,34,100,50,high,N,1
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.649421,-73.982656,34,100,50,high,N,1
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.649421,-73.982656,34,100,50,high,N,1
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.649421,-73.982656,34,100,50,high,N,9
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.649421,-73.982656,34,100,50,high,N,3
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.649421,-73.982656,34,100,50,high,N,4
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.649421,-73.982656,34,100,50,high,N,2
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.649421,-73.982656,34,100,50,high,N,13
+S13-14,17,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.649421,-73.982656,34,100,50,high,N,3
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.649934,-73.984662,27,50,25,high,N,7
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.649934,-73.984662,27,50,25,high,N,6
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.649934,-73.984662,27,50,25,high,N,9
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.649934,-73.984662,27,50,25,high,N,5
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.649934,-73.984662,27,50,25,high,N,2
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.649934,-73.984662,27,50,25,high,N,4
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.649934,-73.984662,27,50,25,high,N,1
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.649934,-73.984662,27,50,25,high,N,1
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.649934,-73.984662,27,50,25,high,N,4
+S08-119,16,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.649934,-73.984662,27,50,25,high,N,2
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.65748,-73.991733,22,75,0,high,N,0
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.65748,-73.991733,22,75,0,high,N,1
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.65748,-73.991733,22,75,0,high,N,9
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.65748,-73.991733,22,75,0,high,N,2
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.65748,-73.991733,22,75,0,high,N,6
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.65748,-73.991733,22,75,0,high,N,1
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.65748,-73.991733,22,75,0,high,N,0
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.65748,-73.991733,22,75,0,high,N,0
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.65748,-73.991733,22,75,0,high,N,0
+E10-20,9,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.65748,-73.991733,22,75,0,high,N,1
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.646601,-73.991903,18,100,50,high,N,2
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.646601,-73.991903,18,100,50,high,N,3
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.646601,-73.991903,18,100,50,high,N,8
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.646601,-73.991903,18,100,50,high,N,1
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.646601,-73.991903,18,100,50,high,N,3
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.646601,-73.991903,18,100,50,high,N,2
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.646601,-73.991903,18,100,50,high,N,1
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.646601,-73.991903,18,100,50,high,N,3
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.646601,-73.991903,18,100,50,high,N,3
+S01-9,15,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.646601,-73.991903,18,100,50,high,N,2
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,1,40.657522,-73.990582,26,75,0,high,N,5
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,2,40.657522,-73.990582,26,75,0,high,N,3
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,3,40.657522,-73.990582,26,75,0,high,N,5
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,4,40.657522,-73.990582,26,75,0,high,N,2
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,5,40.657522,-73.990582,26,75,0,high,N,6
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,6,40.657522,-73.990582,26,75,0,high,N,2
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,7,40.657522,-73.990582,26,75,0,high,N,4
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,8,40.657522,-73.990582,26,75,0,high,N,5
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,9,40.657522,-73.990582,26,75,0,high,N,3
+E12-5,7,Prunus serrulata 'Kanzan',Prunus,serrulata,Non-native,10,40.657522,-73.990582,26,75,0,high,N,6
+E28-50,1,Prunus serotina,Prunus,serotina,Native,1,40.653075,-73.986272,92,75,25,low,N,13
+E28-50,1,Prunus serotina,Prunus,serotina,Native,2,40.653075,-73.986272,92,75,25,low,N,6
+E28-50,1,Prunus serotina,Prunus,serotina,Native,3,40.653075,-73.986272,92,75,25,low,N,3
+E28-50,1,Prunus serotina,Prunus,serotina,Native,4,40.653075,-73.986272,92,75,25,low,N,7
+E28-50,1,Prunus serotina,Prunus,serotina,Native,5,40.653075,-73.986272,92,75,25,low,N,12
+E28-50,1,Prunus serotina,Prunus,serotina,Native,6,40.653075,-73.986272,92,75,25,low,N,11
+E28-50,1,Prunus serotina,Prunus,serotina,Native,7,40.653075,-73.986272,92,75,25,low,N,9
+E28-50,1,Prunus serotina,Prunus,serotina,Native,8,40.653075,-73.986272,92,75,25,low,N,12
+E28-50,1,Prunus serotina,Prunus,serotina,Native,9,40.653075,-73.986272,92,75,25,low,N,38
+E28-50,1,Prunus serotina,Prunus,serotina,Native,10,40.653075,-73.986272,92,75,25,low,N,6
+E27-25,3,Prunus serotina,Prunus,serotina,Native,1,40.651784,-73.987658,69,25,25,low,N,17
+E27-25,3,Prunus serotina,Prunus,serotina,Native,2,40.651784,-73.987658,69,25,25,low,N,3
+E27-25,3,Prunus serotina,Prunus,serotina,Native,3,40.651784,-73.987658,69,25,25,low,N,2
+E27-25,3,Prunus serotina,Prunus,serotina,Native,4,40.651784,-73.987658,69,25,25,low,N,2
+E27-25,3,Prunus serotina,Prunus,serotina,Native,5,40.651784,-73.987658,69,25,25,low,N,3
+E27-25,3,Prunus serotina,Prunus,serotina,Native,6,40.651784,-73.987658,69,25,25,low,N,1
+E27-25,3,Prunus serotina,Prunus,serotina,Native,7,40.651784,-73.987658,69,25,25,low,N,9
+E27-25,3,Prunus serotina,Prunus,serotina,Native,8,40.651784,-73.987658,69,25,25,low,N,0
+E27-25,3,Prunus serotina,Prunus,serotina,Native,9,40.651784,-73.987658,69,25,25,low,N,4
+E27-25,3,Prunus serotina,Prunus,serotina,Native,10,40.651784,-73.987658,69,25,25,low,N,5
+E26-152,19,Prunus serotina,Prunus,serotina,Native,1,40.652271,-73.985295,61,50,50,low,N,0
+E26-152,19,Prunus serotina,Prunus,serotina,Native,2,40.652271,-73.985295,61,50,50,low,N,0
+E26-152,19,Prunus serotina,Prunus,serotina,Native,3,40.652271,-73.985295,61,50,50,low,N,0
+E26-152,19,Prunus serotina,Prunus,serotina,Native,4,40.652271,-73.985295,61,50,50,low,N,2
+E26-152,19,Prunus serotina,Prunus,serotina,Native,5,40.652271,-73.985295,61,50,50,low,N,0
+E26-152,19,Prunus serotina,Prunus,serotina,Native,6,40.652271,-73.985295,61,50,50,low,N,0
+E26-152,19,Prunus serotina,Prunus,serotina,Native,7,40.652271,-73.985295,61,50,50,low,N,2
+E26-152,19,Prunus serotina,Prunus,serotina,Native,8,40.652271,-73.985295,61,50,50,low,N,1
+E26-152,19,Prunus serotina,Prunus,serotina,Native,9,40.652271,-73.985295,61,50,50,low,N,5
+E26-152,19,Prunus serotina,Prunus,serotina,Native,10,40.652271,-73.985295,61,50,50,low,N,0
+E27-278,2,Prunus serotina,Prunus,serotina,Native,1,40.652406,-73.987263,48,50,50,low,N,3
+E27-278,2,Prunus serotina,Prunus,serotina,Native,2,40.652406,-73.987263,48,50,50,low,N,5
+E27-278,2,Prunus serotina,Prunus,serotina,Native,3,40.652406,-73.987263,48,50,50,low,N,3
+E27-278,2,Prunus serotina,Prunus,serotina,Native,4,40.652406,-73.987263,48,50,50,low,N,7
+E27-278,2,Prunus serotina,Prunus,serotina,Native,5,40.652406,-73.987263,48,50,50,low,N,2
+E27-278,2,Prunus serotina,Prunus,serotina,Native,6,40.652406,-73.987263,48,50,50,low,N,4
+E27-278,2,Prunus serotina,Prunus,serotina,Native,7,40.652406,-73.987263,48,50,50,low,N,4
+E27-278,2,Prunus serotina,Prunus,serotina,Native,8,40.652406,-73.987263,48,50,50,low,N,3
+E27-278,2,Prunus serotina,Prunus,serotina,Native,9,40.652406,-73.987263,48,50,50,low,N,2
+E27-278,2,Prunus serotina,Prunus,serotina,Native,10,40.652406,-73.987263,48,50,50,low,N,4
+W40-109,12,Prunus serotina,Prunus,serotina,Native,1,40.651994,-73.995888,55,25,50,low,N,3
+W40-109,12,Prunus serotina,Prunus,serotina,Native,2,40.651994,-73.995888,55,25,50,low,N,2
+W40-109,12,Prunus serotina,Prunus,serotina,Native,3,40.651994,-73.995888,55,25,50,low,N,4
+W40-109,12,Prunus serotina,Prunus,serotina,Native,4,40.651994,-73.995888,55,25,50,low,N,2
+W40-109,12,Prunus serotina,Prunus,serotina,Native,5,40.651994,-73.995888,55,25,50,low,N,2
+W40-109,12,Prunus serotina,Prunus,serotina,Native,6,40.651994,-73.995888,55,25,50,low,N,6
+W40-109,12,Prunus serotina,Prunus,serotina,Native,7,40.651994,-73.995888,55,25,50,low,N,4
+W40-109,12,Prunus serotina,Prunus,serotina,Native,8,40.651994,-73.995888,55,25,50,low,N,22
+W40-109,12,Prunus serotina,Prunus,serotina,Native,9,40.651994,-73.995888,55,25,50,low,N,5
+W40-109,12,Prunus serotina,Prunus,serotina,Native,10,40.651994,-73.995888,55,25,50,low,N,2
+W06-183,11,Prunus serotina,Prunus,serotina,Native,1,40.653612,-73.997067,31,50,50,medium,N,10
+W06-183,11,Prunus serotina,Prunus,serotina,Native,2,40.653612,-73.997067,31,50,50,medium,N,5
+W06-183,11,Prunus serotina,Prunus,serotina,Native,3,40.653612,-73.997067,31,50,50,medium,N,71
+W06-183,11,Prunus serotina,Prunus,serotina,Native,4,40.653612,-73.997067,31,50,50,medium,N,2
+W06-183,11,Prunus serotina,Prunus,serotina,Native,5,40.653612,-73.997067,31,50,50,medium,N,3
+W06-183,11,Prunus serotina,Prunus,serotina,Native,6,40.653612,-73.997067,31,50,50,medium,N,3
+W06-183,11,Prunus serotina,Prunus,serotina,Native,7,40.653612,-73.997067,31,50,50,medium,N,4
+W06-183,11,Prunus serotina,Prunus,serotina,Native,8,40.653612,-73.997067,31,50,50,medium,N,5
+W06-183,11,Prunus serotina,Prunus,serotina,Native,9,40.653612,-73.997067,31,50,50,medium,N,5
+W06-183,11,Prunus serotina,Prunus,serotina,Native,10,40.653612,-73.997067,31,50,50,medium,N,3
+W35-197,13,Prunus serotina,Prunus,serotina,Native,1,40.649774,-73.995688,35,25,25,medium,N,2
+W35-197,13,Prunus serotina,Prunus,serotina,Native,2,40.649774,-73.995688,35,25,25,medium,N,1
+W35-197,13,Prunus serotina,Prunus,serotina,Native,3,40.649774,-73.995688,35,25,25,medium,N,6
+W35-197,13,Prunus serotina,Prunus,serotina,Native,4,40.649774,-73.995688,35,25,25,medium,N,4
+W35-197,13,Prunus serotina,Prunus,serotina,Native,5,40.649774,-73.995688,35,25,25,medium,N,26
+W35-197,13,Prunus serotina,Prunus,serotina,Native,6,40.649774,-73.995688,35,25,25,medium,N,2
+W35-197,13,Prunus serotina,Prunus,serotina,Native,7,40.649774,-73.995688,35,25,25,medium,N,5
+W35-197,13,Prunus serotina,Prunus,serotina,Native,8,40.649774,-73.995688,35,25,25,medium,N,1
+W35-197,13,Prunus serotina,Prunus,serotina,Native,9,40.649774,-73.995688,35,25,25,medium,N,1
+W35-197,13,Prunus serotina,Prunus,serotina,Native,10,40.649774,-73.995688,35,25,25,medium,N,3
+W35-265,14,Prunus serotina,Prunus,serotina,Native,1,40.649172,-73.996158,31,50,25,high,N,3
+W35-265,14,Prunus serotina,Prunus,serotina,Native,2,40.649172,-73.996158,31,50,25,high,N,3
+W35-265,14,Prunus serotina,Prunus,serotina,Native,3,40.649172,-73.996158,31,50,25,high,N,0
+W35-265,14,Prunus serotina,Prunus,serotina,Native,4,40.649172,-73.996158,31,50,25,high,N,2
+W35-265,14,Prunus serotina,Prunus,serotina,Native,5,40.649172,-73.996158,31,50,25,high,N,2
+W35-265,14,Prunus serotina,Prunus,serotina,Native,6,40.649172,-73.996158,31,50,25,high,N,1
+W35-265,14,Prunus serotina,Prunus,serotina,Native,7,40.649172,-73.996158,31,50,25,high,N,4
+W35-265,14,Prunus serotina,Prunus,serotina,Native,8,40.649172,-73.996158,31,50,25,high,N,1
+W35-265,14,Prunus serotina,Prunus,serotina,Native,9,40.649172,-73.996158,31,50,25,high,N,3
+W35-265,14,Prunus serotina,Prunus,serotina,Native,10,40.649172,-73.996158,31,50,25,high,N,2
+E26-215,18,Prunus serotina,Prunus,serotina,Native,1,40.651844,-73.986414,67,50,25,low,N,4
+E26-215,18,Prunus serotina,Prunus,serotina,Native,2,40.651844,-73.986414,67,50,25,low,N,2
+E26-215,18,Prunus serotina,Prunus,serotina,Native,3,40.651844,-73.986414,67,50,25,low,N,53
+E26-215,18,Prunus serotina,Prunus,serotina,Native,4,40.651844,-73.986414,67,50,25,low,N,3
+E26-215,18,Prunus serotina,Prunus,serotina,Native,5,40.651844,-73.986414,67,50,25,low,N,1
+E26-215,18,Prunus serotina,Prunus,serotina,Native,6,40.651844,-73.986414,67,50,25,low,N,2
+E26-215,18,Prunus serotina,Prunus,serotina,Native,7,40.651844,-73.986414,67,50,25,low,N,3
+E26-215,18,Prunus serotina,Prunus,serotina,Native,8,40.651844,-73.986414,67,50,25,low,N,3
+E26-215,18,Prunus serotina,Prunus,serotina,Native,9,40.651844,-73.986414,67,50,25,low,N,2
+E26-215,18,Prunus serotina,Prunus,serotina,Native,10,40.651844,-73.986414,67,50,25,low,N,5
+E26-175,20,Prunus serotina,Prunus,serotina,Native,1,40.652095,-73.985724,68,50,50,low,N,3
+E26-175,20,Prunus serotina,Prunus,serotina,Native,2,40.652095,-73.985724,68,50,50,low,N,0
+E26-175,20,Prunus serotina,Prunus,serotina,Native,3,40.652095,-73.985724,68,50,50,low,N,3
+E26-175,20,Prunus serotina,Prunus,serotina,Native,4,40.652095,-73.985724,68,50,50,low,N,11
+E26-175,20,Prunus serotina,Prunus,serotina,Native,5,40.652095,-73.985724,68,50,50,low,N,2
+E26-175,20,Prunus serotina,Prunus,serotina,Native,6,40.652095,-73.985724,68,50,50,low,N,2
+E26-175,20,Prunus serotina,Prunus,serotina,Native,7,40.652095,-73.985724,68,50,50,low,N,0
+E26-175,20,Prunus serotina,Prunus,serotina,Native,8,40.652095,-73.985724,68,50,50,low,N,1
+E26-175,20,Prunus serotina,Prunus,serotina,Native,9,40.652095,-73.985724,68,50,50,low,N,4
+E26-175,20,Prunus serotina,Prunus,serotina,Native,10,40.652095,-73.985724,68,50,50,low,N,9
