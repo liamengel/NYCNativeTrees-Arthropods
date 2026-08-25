@@ -134,6 +134,7 @@ picea1   <- dat[81:100,]
 quercus2 <- dat[101:120,]
 prunus1  <- dat[121:140,]
 quercus3 <- dat[141:169,] #BBG samples
+gwc_data <-dat[1:140,]
 
 #stats playing for GWC gall data ##############################################
 #quick stats on total galls by species within each of the genera. tests for significance of non-parametric (non-normal) distribution of number of galls compared to 0...null hypothesis is that there is no difference in distribution compared to mean of 0###
@@ -150,7 +151,12 @@ wilcox.test(total_galls ~ Origin, data=tilia1)
 #W = 87.5, p-value = 0.004622
 wilcox.test(total_galls ~ Origin, data=picea1)
 #W = 50, p-value = NA
+wilcox.test(total_galls ~ Origin, data=prunus1)
+#W = 50, p-value = NA
 
+#For all GWC
+wilcox.test(total_galls ~ Origin, data=gwc_data)
+#W = 3222.5, p-value = 1.528e-05
 
 #Extra stats tests for GWC#############
 #see pg 157; https://rcompanion.org/documents/RCompanionBioStatistics.pdf
@@ -186,32 +192,6 @@ pairwise.wilcox.test(quercus_allGWC$total_galls, quercus_allGWC$Full_Name,
 #Quercus_acutissima    0.00092        0.00016             -      
 
 wilcox.test(GWC_robur$total_galls, GWC_acutissima$total_galls)
-
-library(multcompView)
-library(lsmeans)
-leastsquare=lsmeans(model, pairwise ~ Species, adjust="tukey")
-cld(leastsquare, alpha=0.05, Letters=letters, adjust="tukey")
-
-#Welch Two Sample t-test
-#Welch is used if sample size is small, Student's t is used is if sample size is big >10 per category
-#comparing difference between two categories, with null being averages are not different
-t.test(data=quercus1, total_galls ~ Species)  #NSD #no significant diff
-#t = 1.26, df = 9, p-value = 0.2394
-t.test(data=tilia1, total_galls ~ Species) #SSD #statistically significantly diff
-#t = 3.9505, df = 13.464, p-value = 0.001557
-#why would df not be a whole number?
-
-t.test(data=acer1, total_galls ~ Species) #NSD
-#t = -1, df = 9, p-value = 0.3434
-
-t.test(data=pinus1, total_galls ~ Species) #na, no galls
-t.test(data=picea1, total_galls ~ Species) #na, no galls
-#
-
-library(multcomp)
-#using different package to do Tukey test??
-posthoc = glht(model, linfct = mcp(Species="Tukey"))
-mcs = summary(posthoc, test=adjusted("single-step"))
 
 ##############################################
 ###################Plots of GWC gall data ##
@@ -259,7 +239,8 @@ quercus_allGWC$Full_Name <- factor(quercus_allGWC$Full_Name,
 
 quercAllGWC <- 
   ggplot(quercus_allGWC, aes(y=log(total_galls+1), x=Full_Name, fill=Origin)) + 
-  geom_boxplot() +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.1, alpha = 0.4, size = 1.5) +
   theme_bw()+
   scale_fill_brewer(palette = "Paired") +
   labs(x = " ", y = "Log(Total galled leaves per tree+1)", fill = NULL) +
@@ -275,7 +256,8 @@ quercAllGWC
 
 acer1pl<- 
   ggplot(acer1, aes(y=log(total_galls+1), x=factor(Full_Name, levels=unique(Full_Name)), fill=Origin)) + 
-  geom_boxplot() +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0.02, alpha = 0.4, size = 1.5) +
   theme_bw()+
   scale_fill_brewer(palette = "Paired") +
   labs(x = " ", y = "", fill = NULL) +
@@ -290,7 +272,8 @@ acer1pl
 
 tilia1pl<- 
   ggplot(tilia1, aes(y=log(total_galls+1), x=Full_Name, fill=Origin)) + 
-  geom_boxplot() +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.1, alpha = 0.4, size = 1.5) +
   theme_bw()+
   scale_fill_brewer(palette = "Paired") +
   labs(x = " ", y = "Log(Total galled leaves per tree+1)", fill = NULL) +
@@ -380,15 +363,6 @@ TukeyHSD(model)
 #strobus-rubrum          -2.500000e-01 -34.64804 34.148035 1.0000000
 #wallichiana-rubrum      -2.500000e-01 -34.64804 34.148035 1.0000000
 #wallichiana-strobus      7.993606e-15 -34.39804 34.398035 1.0000000 (Pinus in-genus not SSD)
-
-###T-test for native vs non-native for each environmental variable
-
-# Check for normality
-install.packages("mvnormtest")
-library(mvnormtest)
-
-mshapiro.test(cbind(dat$Height_.ft., dat$Sun_Exposure_..., dat$Distance_from_Road_.ft., dat$Leaf_Accessibility_Score)) # for multivariate normality
-#cannot get to work
 
 # Did Shapiro test for environmental variables, all are non-normal
 shapiro.test(dat$Height_.ft.[dat$Origin == "Native"])
@@ -554,8 +528,6 @@ summary(manova_leafchem)
 
 plot(manova_leafchem)
 
-
-
 #sun exposure
 t.test(Sun_Exposure_... ~ Origin, data = subset_GWC)
 #t = -0.78262, df = 137.56, p-value = 0.4352
@@ -572,8 +544,6 @@ aggregate(Leaf_Accessibility_Score ~ Origin, data = subset_GWC, FUN = mean)
 #Origin Leaf_Accessibility_Score
 #1     Native                 1.971429
 #2 Non-native                 2.385714
-
-
 
 
 
@@ -820,15 +790,15 @@ library(dplyr)
 library(patchwork)
 library(grid)
 
-# --- 0. Clean data ---
+# Clean data
 NYBG_galls_clean <- NYBG_galls %>%
   filter(!is.na(year), !is.na(Total.Galls)) %>%
   mutate(year = as.numeric(as.character(year)))
 
-# --- 1. Fit Negative Binomial Model ---
+# Fit Negative Binomial Model 
 nb_model <- glm.nb(Total.Galls ~ year * Origin, data = NYBG_galls_clean)
 
-# --- 2. Create prediction grid ---
+# Create prediction grid
 newdata <- expand.grid(
   year = seq(min(NYBG_galls_clean$year, na.rm = TRUE),
              max(NYBG_galls_clean$year, na.rm = TRUE),
@@ -836,7 +806,7 @@ newdata <- expand.grid(
   Origin = unique(NYBG_galls_clean$Origin)
 )
 
-# --- 3. Predict fitted values and CI ---
+# Predict fitted values and CI
 pred <- predict(nb_model, newdata, type = "link", se.fit = TRUE)
 newdata <- newdata %>%
   mutate(
@@ -845,10 +815,10 @@ newdata <- newdata %>%
     upper = exp(pred$fit + 1.96 * pred$se.fit)
   )
 
-# --- Split data by Origin ---
+# Split data by Origin
 newdata_native <- newdata %>% filter(Origin == "Native")
 
-# --- 4. Base plot with points, Native fitted line, and CI ribbon ---
+# Base plot with points, Native fitted line, and CI ribbon
 base_plot <- ggplot(NYBG_galls_clean, aes(x = year, y = Total.Galls, color = Origin)) +
   geom_point(alpha = 0.5) +
   # CI ribbon only for Native
@@ -863,7 +833,7 @@ base_plot <- ggplot(NYBG_galls_clean, aes(x = year, y = Total.Galls, color = Ori
   theme_bw() +
   labs(x = "Year", y = "Total Galls (log scale)", color = "Origin")
 
-# --- 5. Lower range zoomed plot ---
+# Lower range zoomed plot
 p1 <- base_plot +
   coord_cartesian(ylim = c(0, 7)) +
   theme(
@@ -871,7 +841,7 @@ p1 <- base_plot +
     legend.position = "none"
   )
 
-# --- 6. Upper range zoomed plot ---
+# Upper range zoomed plot 
 p2 <- base_plot +
   coord_cartesian(ylim = c(10, 50)) +
   theme(
@@ -882,11 +852,10 @@ p2 <- base_plot +
     legend.position = "none"
   )
 
-# --- 7. Combine plots with patchwork ---
+# Combine plots with patchwork
 combined <- (p2 / p1) + plot_layout(heights = c(1, 3), guides = "collect") &
   theme(legend.position = "bottom")
 
-# --- 8. Draw final plot ---
 grid.newpage()
 combined
 
@@ -1047,6 +1016,8 @@ for (i in 1:length(unique(NYBG_herb$scientificName))) {
   library(ggplot2)
   library(dplyr)
   
+
+##VERSION EXCLUDING PRUNUS -- used in paper
   # Exclude Prunus species
   herb_clean <- NYBG_herb %>%
     filter(!grepl("^Prunus", scientificName))
@@ -1083,7 +1054,7 @@ for (i in 1:length(unique(NYBG_herb$scientificName))) {
 
   herbtimescale
   
-  # Combine your original 'combined' plot (stacked gall plots) with herb_plot
+  # Combine original 'combined' plot (stacked gall plots) with herb_plot
   
   # Define layout grid manually
   layout <- "
@@ -1102,22 +1073,132 @@ for (i in 1:length(unique(NYBG_herb$scientificName))) {
   grid.newpage()
   final_plot
   
+######Other timescale herb plot and normality testing with diff exclusions#####
+  ##VERSION WITH ALL DATA (INCL PLOT)
+  # Subset by Origin
+  natives <- NYBG_herb %>% filter(Origin == "Native")
+  nonnatives <- NYBG_herb %>% filter(Origin == "Non-native")
+  
+  # Plot native vs non-native
+  ggplot(NYBG_herb, aes(x = year, y = Herbivory.Avg, color = Origin)) +
+    geom_point(alpha = 0.6) +
+    geom_smooth(method = "lm", se = TRUE) +
+    theme_bw() +
+    labs(
+      title = "Herbivory Over Time by Origin (Excluding Prunus)",
+      x = "Year",
+      y = "Herbivory Average",
+      color = "Origin"
+    )
+  
+
+  ##TESTING NORMALITY WITH DIFFERENT EXCLUSIONS
+  
+  ##All data present
+  herb_model_all <- lm(Herbivory.Avg ~ year * Origin, data = NYBG_herb, na.action = "na.omit")
+  summary(herb_model_all)
+  
+  qqnorm(residuals(herb_model_all))
+  qqline(residuals(herb_model_all), col = "red")
+  #very skewed on right tail
+  plot(fitted(herb_model_all), residuals(herb_model_all))
+  abline(h = 0, col = "red")
+  #big skew!
+  
+  ##Prunus excluded
+  qqnorm(residuals(herb_model))
+  qqline(residuals(herb_model), col = "red")
+  #not very skewed
+  shapiro.test(residuals(herb_model))
+  #p=0.02
+  plot(fitted(herb_model), residuals(herb_model))
+  abline(h = 0, col = "red")
+  ##bit of a funnel shape, possible skew
+  
+  ##Oak excluded
+  herb_oakremoved <- NYBG_herb %>%
+    filter(!grepl("^Quercus", scientificName))
+  
+  herb_model_querc <- lm(Herbivory.Avg ~ year * Origin, data = herb_oakremoved, na.action = "na.omit")
+  
+  qqnorm(residuals(herb_model_querc))
+  qqline(residuals(herb_model_querc), col = "red")
+  #very skewed on right tail
+  plot(fitted(herb_model_querc), residuals(herb_model_querc))
+  abline(h = 0, col = "red")
+  #big skew!
+  
+  ##Oak + Prunus excluded
+  herb_oakpruremoved <- NYBG_herb %>%
+    filter(!grepl("^Quercus", scientificName),
+           !grepl("^Prunus", scientificName))
+  
+  herb_model_quercpru <- lm(Herbivory.Avg ~ year * Origin, data = herb_oakpruremoved, na.action = "na.omit")
+  
+  qqnorm(residuals(herb_model_quercpru))
+  qqline(residuals(herb_model_quercpru), col = "red")
+  #
+  plot(fitted(herb_model_quercpru), residuals(herb_model_quercpru))
+  abline(h = 0, col = "red")
+  #
+  
+  ##Maple excluded
+  herb_mapleremoved <- NYBG_herb %>%
+    filter(!grepl("^Acer", scientificName))
+  
+  herb_model_maple <- lm(Herbivory.Avg ~ year * Origin, data = herb_mapleremoved, na.action = "na.omit")
+  
+  qqnorm(residuals(herb_model_maple))
+  qqline(residuals(herb_model_maple), col = "red")
+  #very skewed on right tail
+  plot(fitted(herb_model_maple), residuals(herb_model_maple))
+  abline(h = 0, col = "red")
+  #big skew!
+  
+  ##Maple + Prunus excluded
+  herb_maplepruremoved <- NYBG_herb %>%
+    filter(!grepl("^Acer", scientificName),
+           !grepl("^Prunus", scientificName))
+  
+  herb_model_maplepru <- lm(Herbivory.Avg ~ year * Origin, data = herb_maplepruremoved, na.action = "na.omit")
+  
+  qqnorm(residuals(herb_model_maplepru))
+  qqline(residuals(herb_model_maplepru), col = "red")
+  #
+  plot(fitted(herb_model_maplepru), residuals(herb_model_maplepru))
+  abline(h = 0, col = "red")
+  #
+  
+  ##Linden excluded
+  herb_lindenremoved <- NYBG_herb %>%
+    filter(!grepl("^Tilia", scientificName))
+  
+  herb_model_linden <- lm(Herbivory.Avg ~ year * Origin, data = herb_lindenremoved, na.action = "na.omit")
+  
+  qqnorm(residuals(herb_model_linden))
+  qqline(residuals(herb_model_linden), col = "red")
+  #very skewed on right tail
+  plot(fitted(herb_model_linden), residuals(herb_model_linden))
+  abline(h = 0, col = "red")
+  #big skew!
+  
+  ##Linden + Prunus excluded
+  herb_lindenpruremoved <- NYBG_herb %>%
+    filter(!grepl("^Tilia", scientificName),
+           !grepl("^Prunus", scientificName))
+  
+  herb_model_lindenpru <- lm(Herbivory.Avg ~ year * Origin, data = herb_lindenpruremoved, na.action = "na.omit")
+  
+  qqnorm(residuals(herb_model_lindenpru))
+  qqline(residuals(herb_model_lindenpru), col = "red")
+  #
+  plot(fitted(herb_model_lindenpru), residuals(herb_model_lindenpru))
+  abline(h = 0, col = "red")
+ 
+##TESTING SIGNIFICANCE WITH PRUNUS EXCLUDED USING LINEAR MODEL ####
   #to test significance, use linear model
   
   #can use linear model because Shapiro-Wilk normality test and Q-Q plot
-  ##QQ Plot
-  qqnorm(residuals(herb_model))
-  qqline(residuals(herb_model), col = "red")
-  
-  shapiro.test(residuals(herb_model))
-  ##kind of on the line with these two
-  
-  #to further check, use homoscedasticity test
-  plot(fitted(herb_model), residuals(herb_model))
-  abline(h = 0, col = "red")
-
-  
-  
   # Linear model: test for time trend and interaction with Origin
   herb_model <- lm(Herbivory.Avg ~ year * Origin, data = herb_clean, na.action = "na.omit")
   summary(herb_model)
@@ -1130,9 +1211,7 @@ for (i in 1:length(unique(NYBG_herb$scientificName))) {
   #  OriginNon-native      -81.39336   38.94997  -2.090   0.0425 *
   #  year:OriginNon-native   0.04018    0.01973   2.037   0.0477 *
   
-  
-  
-  #to run lm as ANCOVA (I think?)
+  #to run lm as ANCOVA
   anova(herb_model)
   #Response: Herbivory.Avg
   #Df Sum Sq Mean Sq F value  Pr(>F)  
@@ -1185,7 +1264,8 @@ NYBGquercus <- NYBG_herb[21:40,]
 NYBGtilia <- NYBG_herb[41:60,]
 NYBGacer <- NYBG_herb[61:80,]
 NYBGprunus <- NYBG_herb[1:20,]
-  
+
+##Wilcoxon tests for avg herbivory of each tree by genus
 wilcox.test(Herbivory.Avg ~ scientificName, data= NYBGquercus)
 #data:  Herbivory.Avg by scientificName
 #W = 66.5, p-value = 0.2261
@@ -1205,6 +1285,7 @@ wilcox.test(Herbivory.Avg ~ scientificName, data= NYBGprunus)
 #data:  Herbivory.Avg by scientificName
 #W = 23, p-value = 0.04499
 #alternative hypothesis: true location shift is not equal to 0
+
 
 ##NYBG Herbivory Histograms#####
 ###Need to get histograms to bin in the same way
@@ -1294,9 +1375,10 @@ library(ggplot2)
 #removed y-axis title for quercus and prunus for visualization
 quercusHerb<- 
   ggplot(NYBGquercus, 
-  aes(y=log(Herbivory.Avg+1), 
-  x=scientificName, fill=specificEpithet)) + 
-  geom_boxplot() +
+         aes(y=log(Herbivory.Avg+1), 
+             x=scientificName, fill=specificEpithet)) + 
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   theme(legend.position = "none", #legend.position = "bottom"
         axis.text.x = element_text(face = "italic"),
@@ -1311,7 +1393,8 @@ tiliaHerb<-
   ggplot(NYBGtilia, 
          aes(y=log(Herbivory.Avg+1), 
              x=scientificName, fill=specificEpithet)) + 
-  geom_boxplot() +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   theme(legend.position = "none", #legend.position = "bottom"
         axis.text.x = element_text(face = "italic"),
@@ -1324,14 +1407,13 @@ tiliaHerb<-
   coord_cartesian(ylim = c(0, 3))
 
 # Manually assign reversed colors (example colors from "Paired" palette)
-# You can pick others using RColorBrewer::brewer.pal(n = 2, "Paired")
 custom_colors <- c("platanoides" = "#1F78B4", "rubrum" = "#A6CEE3")  # Reversed from original
-
 acerHerb<- ###more complicatd 'x' line to switch rubrum and platanoides from alphabetical order
   ggplot(NYBGacer, 
          aes(y=log(Herbivory.Avg+1), 
              x=factor(scientificName, levels = rev(unique(scientificName))),  fill=specificEpithet)) + 
-  geom_boxplot() +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   theme(legend.position = "none", #legend.position = "bottom"
         axis.text.x = element_text(face = "italic"),
@@ -1347,7 +1429,8 @@ prunusHerb<-
   ggplot(NYBGprunus, 
          aes(y=log(Herbivory.Avg+1), 
              x=scientificName, fill=specificEpithet)) + 
-  geom_boxplot() +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   theme(legend.position = "none", #legend.position = "bottom"
         axis.text.x = element_text(face = "italic"),
@@ -1363,7 +1446,6 @@ prunusHerb<-
   coord_cartesian(ylim = c(0, 4))
 
 plot(prunusHerb)
-
 plot_grid(acerHerb, quercusHerb, tiliaHerb, prunusHerb, 
           labels = c('E', 'F', 'G', 'H'), 
           ncol=2)
@@ -1487,7 +1569,7 @@ ggplot(dat4, aes(y=n, x=Full_Name, fill=Genus)) +
 #Make error bars ###
 #help from: http://www.sthda.com/english/wiki/ggplot2-error-bars-quick-start-guide-r-software-and-data-visualization 
 #data : a data frame
-#varname : the name of a column containing the variable to be summariezed
+#varname : the name of a column containing the variable to be summarized
 #groupnames : vector of column names to be used as grouping variables
 data_summary <- function(data, varname, groupnames){
   require(plyr)
@@ -1519,7 +1601,7 @@ ggplot(df2, aes(y=Leaf_Herbivory, x=Full_name, fill=Genus)) +
   labs(x = "Tree name", y = "Mean Herbivory (% leaf consumed)", fill = NULL) 
 
 
-#Running some statistics ####
+#Running some prelim statistics ####
 model <- aov(Leaf_Herbivory ~ Genus + Species, data=LeafByte2)
 summary(model)
 #Df Sum Sq Mean Sq F value   Pr(>F)    
@@ -1572,56 +1654,111 @@ TukeyHSD(model)
 #serrulata-rubrum      -0.69000000 -3.737746 2.3577464 0.9973055
 #serrulata-serotina    -0.86000000 -3.907746 2.1877464 0.9895338
 
-# Statistical test within species (do not use ANOVAs from above) ###########
+#Run stats for herbivory ########################  
 
-#Create plots used for the paper for herbivory ########################  
-#First separate by genus
+##Remove the additional T. cordata and the duplicated T. cordata
+###Make sure of the rows
+LeafByte2[c(231:240, 411:420), c("Accession_No", "Full_name")]
+###Slice out
+LeafByte2 <- LeafByte2 %>%
+  slice(-c(231:240, 411:420))
+
+##Now there are the correct 800 total observations
+
+##Check for normality of data
+
+# --- 1. Shapiro-Wilk normality test, split by Genus and Origin ---
+normality_check <- GWC_tree_avg %>%
+  group_by(Genus, Origin) %>%
+  summarise(
+    n = n(),
+    shapiro_p = shapiro.test(Herbivory.Avg)$p.value,
+    .groups = "drop"
+  )
+print(normality_check)
+
+# --- 2. Visual check: QQ plots for each Genus x Origin group ---
+ggplot(GWC_tree_avg, aes(sample = Herbivory.Avg)) +
+  stat_qq() +
+  stat_qq_line() +
+  facet_wrap(Genus ~ Origin, scales = "free") +
+  theme_bw() +
+  labs(title = "QQ plots by Genus and Origin")
+
+# --- 3. Visual check: histograms/density by group ---
+ggplot(GWC_tree_avg, aes(x = log(Herbivory.Avg+1), fill = Origin)) +
+  geom_histogram(alpha = 0.6, position = "identity", bins = 8) +
+  facet_wrap(~ Genus, scales = "free") +
+  theme_bw() +
+  labs(title = "Herbivory distributions by genus and origin")
+
+##Mostly non-normal so use Wilcox
+
+#Then separate by genus
 quercus <- LeafByte2[1:200,]
-tilia <- LeafByte2[201:420,]
-acer <- LeafByte2[421:620,]
-prunus <- LeafByte2[621:820,]
+tilia <- LeafByte2[201:400,]
+acer <- LeafByte2[401:600,]
+prunus <- LeafByte2[601:800,]
 
-#Run some stats  #
-#Run tests; b/c there are lots of zeros, need to NOT use t-test
-#t.test(Leaf_Herbivory ~ Species, data=quercus)
+##Create average herb for each tree rather than individual datapoint per leaf
+GWC_tree_avg <- LeafByte2 %>%
+  group_by(Accession_No, Full_name, Genus, Species, Origin) %>%
+  summarise(Herbivory.Avg = mean(Leaf_Herbivory, na.rm = TRUE),
+            n_leaves = n(),
+            .groups = "drop")
+
+##Create that avg herb for each genus
+quercus_avg <- quercus %>%
+  group_by(Accession_No, Full_name, Genus, Species, Origin) %>%
+  summarise(Herbivory.Avg = mean(Leaf_Herbivory, na.rm = TRUE),
+            n_leaves = n(),
+            .groups = "drop")
+
+tilia_avg <- tilia %>%
+  group_by(Accession_No, Full_name, Genus, Species, Origin) %>%
+  summarise(Herbivory.Avg = mean(Leaf_Herbivory, na.rm = TRUE),
+            n_leaves = n(),
+            .groups = "drop")
+
+acer_avg <- acer %>%
+  group_by(Accession_No, Full_name, Genus, Species, Origin) %>%
+  summarise(Herbivory.Avg = mean(Leaf_Herbivory, na.rm = TRUE),
+            n_leaves = n(),
+            .groups = "drop")
+
+prunus_avg <- prunus %>%
+  group_by(Accession_No, Full_name, Genus, Species, Origin) %>%
+  summarise(Herbivory.Avg = mean(Leaf_Herbivory, na.rm = TRUE),
+            n_leaves = n(),
+            .groups = "drop")
+
+#Run Wilcoxon Tests for each genus (ran both for leaves and trees, trees is more appropriate and used in paper to avoid pseudoreplication)
+
+##Quercus##
 wilcox.test(Leaf_Herbivory ~ Species, data= quercus)
-#data:  Leaf_Herbivory by Species
 #W = 6432, p-value = 0.0004068
-#alternative hypothesis: true location shift is not equal to 0
+wilcox.test(Herbivory.Avg ~ Species, data= quercus_avg)
+#W = 78, p-value = 0.0372 ##SIGNIFICANT
 
-#t.test(Leaf_Herbivory ~ Species, data=tilia)
+##Tilia##
 wilcox.test(Leaf_Herbivory ~ Species, data=tilia)
-#data:  Leaf_Herbivory by Species
 #W = 5262, p-value = 0.08269
-#alternative hypothesis: true location shift is not equal to 0
+wilcox.test(Herbivory.Avg ~ Species, data= tilia_avg)
+#W = 51.5, p-value = 0.9396 ##NOT SIGNIFICANT
 
-boxplot(Leaf_Herbivory ~ Species, data = tilia,
-        main = "Herbivory by Tree Origin",
-        ylab = "Herbivory")
-
-means <- tapply(tilia$Leaf_Herbivory, tilia$Species, mean, na.rm = TRUE)
-points(1:length(means), means, col = "red", pch = 19)
-
-#t.test(Leaf_Herbivory ~ Species, data=acer)
+##Acer##
 wilcox.test(Leaf_Herbivory ~ Species, data=acer)
-#data:  Leaf_Herbivory by Species
 #W = 3458.5, p-value = 7.017e-05
-#alternative hypothesis: true location shift is not equal to 0
+wilcox.test(Herbivory.Avg ~ Species, data=acer_avg)
+#W = 31.5, p-value = 0.1733 ##NOT SIGNIFICANT
 
-#t.test(Leaf_Herbivory ~ Species, data=prunus)
+##Prunus##
 wilcox.test(Leaf_Herbivory ~ Species, data=prunus)
-#data:  Leaf_Herbivory by Species
 #W = 4974.5, p-value = 0.9509
-#alternative hypothesis: true location shift is not equal to 0
-#is there something wrong here? P-value seems so high compared to others
+wilcox.test(Herbivory.Avg ~ Species, data=prunus_avg)
+#W = 61, p-value = 0.4267 ##NOT SIGNIFICANT
 
-boxplot(Leaf_Herbivory ~ Species, data = prunus,
-        main = "Herbivory by Tree Origin",
-        ylab = "Herbivory")
-
-means <- tapply(prunus$Leaf_Herbivory, prunus$Species, mean, na.rm = TRUE)
-points(1:length(means), means, col = "red", pch = 19)
-
+##histograms of leaf herbivory####
 #checking histogram of herbivory rates on native and non-native trees
 par(mfrow=c(1,2))
 hist(quercus$Leaf_Herbivory[quercus$Species == 'alba'], ylim=c(0,100), xlim=c(0,35))
@@ -1652,28 +1789,33 @@ library(ggplot2)
 
 #Plots have log-transformed herbivory + 1 (to avoid zeros messing up plots)
 #removed y-axis title for quercus and prunus for visualization
+
+# Manually assign reversed colors (example colors from "Paired" palette)
+custom_colors <- c("Non-native" = "#1F78B4", "Native" = "#A6CEE3")  # Reversed from original
+  
 ace<- #need to reverse order of plotted trees so rubrum is 1st
-  ggplot(acer, aes(y=log(Leaf_Herbivory+1), x=factor(Full_name, levels = rev(unique(Full_name))), fill=Origin)) + 
-  geom_boxplot() +
+  ggplot(acer_avg, aes(y=log(Herbivory.Avg+1), x=factor(Full_name, levels = c("Acer rubrum", "Acer platanoides")), fill=Origin)) + 
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   theme(legend.position = "none", #legend.position = "bottom"
         axis.text.x = element_text(face = "italic"),
         axis.title.x = element_text(size = 18),
         axis.title.y = element_text(size = 16),
         axis.text = element_text(size = 16) ) +
-  scale_fill_brewer(palette = "Paired") +
+  scale_fill_manual(values = custom_colors) +
   labs(x = " ", y = "log(% leaf consumed+1)", fill = NULL) +
-  coord_cartesian(ylim = c(0, 4.25)) +
-  annotate("text", x = 1.5, y = 4.15, label = "*", size = 10)
+  coord_cartesian(ylim = c(0, 3))
 
 ace
 
 #change prunus serrulata 'kanzan' to just prunus serrulata
-prunus$Full_name <- gsub("['\"].*['\"]", "", prunus$Full_name)
-prunus$Full_name <- trimws(prunus$Full_name)
+prunus_avg$Full_name <- gsub("['\"].*['\"]", "", prunus_avg$Full_name)
+prunus_avg$Full_name <- trimws(prunus_avg$Full_name)
 pru<-
-  ggplot(prunus, aes(y=log(Leaf_Herbivory+1), x=factor(Full_name, levels = rev(unique(Full_name))), fill=Origin)) + 
-  geom_boxplot() +
+  ggplot(prunus_avg, aes(y=log(Herbivory.Avg+1), x=factor(Full_name, levels = rev(unique(Full_name))), fill=Origin)) + 
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   theme(legend.position = "none", #legend.position = "bottom"
         axis.text.x = element_text(face = "italic"),
@@ -1682,13 +1824,14 @@ pru<-
         axis.text = element_text(size = 16) ) +
   scale_fill_brewer(palette = "Paired") +
   labs(x = " ", y = " ", fill = NULL) +
-  coord_cartesian(ylim = c(0, 4.25))
+  coord_cartesian(ylim = c(0, 3))
 
 pru
 
 querc<- 
-  ggplot(quercus, aes(y=log(Leaf_Herbivory+1), x=Full_name, fill=Origin)) + 
-  geom_boxplot() +
+  ggplot(quercus_avg, aes(y=log(Herbivory.Avg+1), x=Full_name, fill=Origin)) + 
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw()+
   scale_fill_brewer(palette = "Paired") +
   labs(x = " ", y = " ", fill = NULL) +
@@ -1697,14 +1840,15 @@ querc<-
         axis.title.x = element_text(size = 16),
         axis.title.y = element_text(size = 16),
         axis.text = element_text(size = 16)) +
-  coord_cartesian(ylim = c(0, 4.25)) +
-  annotate("text", x = 1.5, y = 4.15, label = "*", size = 10)
+  coord_cartesian(ylim = c(0, 3)) +
+  annotate("text", x = 1.5, y = 2.9, label = "*", size = 10)
 
 querc
 
 til<-
-  ggplot(tilia, aes(y=log(Leaf_Herbivory+1), x=Full_name, fill=Origin)) + 
-  geom_boxplot() +
+  ggplot(tilia_avg, aes(y=log(Herbivory.Avg+1), x=Full_name, fill=Origin)) + 
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.4, size = 1.5) +
   theme_bw() +
   scale_fill_brewer(palette = "Paired") +
   theme(legend.position="none", 
@@ -1713,7 +1857,7 @@ til<-
         axis.title.y = element_text(size = 16),
         axis.text = element_text(size = 16)) +
   labs(x = " ", y = "log(% leaf consumed+1)", fill = NULL) +
-  coord_cartesian(ylim = c(0, 4.25))
+  coord_cartesian(ylim = c(0, 3))
 
 til
 
@@ -1721,6 +1865,103 @@ plot_grid(ace, querc, til, pru,
           labels = c('A', 'B', 'C', 'D'), 
           ncol=2)#, rel_heights=c(1,1,1.2,1.2))
 #This puts the significant trees on the top row; non-SSD on the bottom
+
+
+
+#####ADDITIONAL TIMESCALE PLOTS
+#####Relative Percent Herbivory Plot####
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+# Bin year into decades and calculate percent native/non-native per decade
+herb_decade <- herb_clean %>%
+  mutate(decade = floor(year / 10) * 10) %>%
+  group_by(decade, Origin) %>%
+  summarise(n = n(), .groups = "drop")
+
+herb_decade_totals <- herb_clean %>%
+  mutate(decade = floor(year / 10) * 10) %>%
+  group_by(decade) %>%
+  summarise(total_n = n(), .groups = "drop")
+
+# Match the color scheme from the scatterplot
+origin_colors <- c("Native" = "#F8766D", "Non-native" = "#00BFC4")
+
+herb_decade <- herb_clean %>%
+  filter(!is.na(year)) %>%
+  mutate(decade = floor(year / 10) * 10) %>%
+  group_by(decade, Origin) %>%
+  summarise(n = n(), .groups = "drop")
+
+herb_decade_totals <- herb_clean %>%
+  filter(!is.na(year)) %>%
+  mutate(decade = floor(year / 10) * 10) %>%
+  group_by(decade) %>%
+  summarise(total_n = n(), .groups = "drop")
+
+ggplot(herb_decade, aes(x = factor(decade), y = n, fill = Origin)) +
+  geom_bar(stat = "identity", position = "fill") +
+  geom_text(
+    data = herb_decade_totals,
+    aes(x = factor(decade), y = 1.05, label = paste0("n=", total_n)),
+    inherit.aes = FALSE,
+    size = 3
+  ) +
+  scale_fill_manual(values = origin_colors) +
+  scale_y_continuous(labels = percent) +
+  coord_cartesian(ylim = c(0, 1.1)) +
+  theme_bw() +
+  labs(
+    title = "Relative Percent of Native vs. Non-Native Specimens Over Time",
+    x = "Decade",
+    y = "Percent of Specimens",
+    fill = "Origin"
+  )
+
+####Native herbivory baseline plot#####
+#native = baseline at 0, line + points show non-native trend relative to native
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
+# Bin year into 40-year windows
+herb_40yr <- herb_clean %>%
+  filter(!is.na(year)) %>%
+  mutate(period = floor(year / 40) * 40,
+         period_mid = period + 20) %>%  # midpoint of each 40-year block
+  group_by(period, period_mid, Origin) %>%
+  summarise(mean_herbivory = mean(Herbivory.Avg, na.rm = TRUE),
+            n = n(),
+            .groups = "drop")
+
+# Pivot so Native and Non-native are side by side, then compute the difference
+herb_diff <- herb_40yr %>%
+  select(period, period_mid, Origin, mean_herbivory) %>%
+  pivot_wider(names_from = Origin, values_from = mean_herbivory) %>%
+  mutate(diff = `Non-native` - Native)
+
+# Bring back sample sizes for labeling (total n per period)
+herb_diff_n <- herb_40yr %>%
+  group_by(period, period_mid) %>%
+  summarise(total_n = sum(n), .groups = "drop")
+
+herb_diff <- herb_diff %>%
+  left_join(herb_diff_n, by = c("period", "period_mid"))
+
+# Plot
+ggplot(herb_diff, aes(x = period_mid, y = diff)) +
+  geom_hline(yintercept = 0, color = "#F8766D", linewidth = 1) +
+  geom_line(color = "#00BFC4", linewidth = 1) +
+  geom_point(color = "#00BFC4", size = 3) +
+  geom_text(aes(label = paste0("n=", total_n), y = diff + 0.5), size = 3) +
+  theme_bw() +
+  labs(
+    x = "Year (40-Year Block Midpoint)",
+    y = "Herbivory Difference (Non-native − Native)"
+  ) + theme(plot.margin = margin(t = 5, r = 10, b = 5, l = 5))
+
+
 
 
 
